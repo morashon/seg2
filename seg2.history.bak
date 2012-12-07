@@ -1,1159 +1,814 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv_sec="1354785565" tv_usec="66551" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95871956 0.398664653301239
-101636096 1.21766233444214
+  <UndoTransaction tv_sec="1354856529" tv_usec="872915" name="region drag">
+    <MementoUndoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8508757" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41120747" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+        <Crossfade out="18287" in="18531" active="yes" follow-overlap="yes" fixed="no" length="9186" anchor-point="0" position="41120747">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1531" y="0.282192"/>
+            <point x="3061" y="0.518174"/>
+            <point x="4593" y="0.707946"/>
+            <point x="6124" y="0.851507"/>
+            <point x="7654" y="0.948859"/>
+            <point x="9186" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1531" y="0.948859"/>
+            <point x="3061" y="0.851507"/>
+            <point x="4593" y="0.707946"/>
+            <point x="6124" y="0.518174"/>
+            <point x="7654" y="0.282192"/>
+            <point x="9186" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8508757" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41110024" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+        <Crossfade out="18287" in="18531" active="yes" follow-overlap="yes" fixed="no" length="19909" anchor-point="0" position="41110024">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="3318" y="0.282192"/>
+            <point x="6636" y="0.518174"/>
+            <point x="9954" y="0.707946"/>
+            <point x="13272" y="0.851507"/>
+            <point x="16590" y="0.948859"/>
+            <point x="19909" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="3318" y="0.948859"/>
+            <point x="6636" y="0.851507"/>
+            <point x="9954" y="0.707946"/>
+            <point x="13272" y="0.518174"/>
+            <point x="16590" y="0.282192"/>
+            <point x="19909" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856535" tv_usec="341807" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41111494 0.808823525905609
+41129859 0
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95875072 0.915185332298279
-101636096 1.21766233444214
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41129859 0
 </events>
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354785570" tv_usec="426285" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95875072 0.915185332298279
-101636096 1.21766233444214
+  <UndoTransaction tv_sec="1354856538" tv_usec="853421" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41119135 1
+41151306 0.18865442276001
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95879168 1.27660739421844
-101636096 1.21766233444214
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41151306 0.18865442276001
 </events>
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354785575" tv_usec="38151" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95879168 1.27660739421844
-101636096 1.21766233444214
+  <UndoTransaction tv_sec="1354856542" tv_usec="928743" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41151306 0.18865442276001
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-101636096 1.21766233444214
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41103050 0.18865442276001
 </events>
       </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856546" tv_usec="612105" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41129859 0
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41097688 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856572" tv_usec="992849" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41103050 0.18865442276001
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41081603 0.173948526382446
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856577" tv_usec="759385" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41097688 0
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41076241 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856600" tv_usec="358408" name="region drag">
+    <MementoUndoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8508757" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41110024" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+        <Crossfade out="18287" in="18531" active="yes" follow-overlap="yes" fixed="no" length="19909" anchor-point="0" position="41110024">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="3318" y="0.282192"/>
+            <point x="6636" y="0.518174"/>
+            <point x="9954" y="0.707946"/>
+            <point x="13272" y="0.851507"/>
+            <point x="16590" y="0.948859"/>
+            <point x="19909" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="3318" y="0.948859"/>
+            <point x="6636" y="0.851507"/>
+            <point x="9954" y="0.707946"/>
+            <point x="13272" y="0.518174"/>
+            <point x="16590" y="0.282192"/>
+            <point x="19909" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8508757" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41185088" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856613" tv_usec="270218" name="Region end trim">
+    <MementoUndoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8508757" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41185088" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8488506" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41185088" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoRedoCommand>
+    <MementoRedoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8488506" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41185088" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856616" tv_usec="482633" name="region drag">
+    <MementoUndoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8488506" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41185088" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18180" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
+        <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18287" name="morashon_theme3.4" start="552846" length="8488506" position="32621176" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="18531" name="morashon_theme3.2" start="552846" length="8537429" position="41100284" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="id" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Crossfade out="18198" in="18287" active="yes" follow-overlap="yes" fixed="no" length="9252" anchor-point="0" position="32621176">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1542" y="0.282192"/>
+            <point x="3083" y="0.518174"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.851507"/>
+            <point x="7709" y="0.948859"/>
+            <point x="9252" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1542" y="0.948859"/>
+            <point x="3083" y="0.851507"/>
+            <point x="4626" y="0.707946"/>
+            <point x="6168" y="0.518174"/>
+            <point x="7709" y="0.282192"/>
+            <point x="9252" y="0"/>
+          </FadeOut>
+        </Crossfade>
+        <Crossfade out="18287" in="18531" active="yes" follow-overlap="yes" fixed="no" length="9398" anchor-point="0" position="41100284">
+          <FadeIn>
+            <point x="0" y="0"/>
+            <point x="1566" y="0.282192"/>
+            <point x="3132" y="0.518174"/>
+            <point x="4699" y="0.707946"/>
+            <point x="6265" y="0.851507"/>
+            <point x="7831" y="0.948859"/>
+            <point x="9398" y="1"/>
+          </FadeIn>
+          <FadeOut>
+            <point x="0" y="1"/>
+            <point x="1566" y="0.948859"/>
+            <point x="3132" y="0.851507"/>
+            <point x="4699" y="0.707946"/>
+            <point x="6265" y="0.518174"/>
+            <point x="7831" y="0.282192"/>
+            <point x="9398" y="0"/>
+          </FadeOut>
+        </Crossfade>
+      </Playlist>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856632" tv_usec="836161" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41076241 0
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41092042 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856638" tv_usec="519063" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41081603 0.173948526382446
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41093307 0.159242630004883
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856643" tv_usec="546404" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41070880 0.808823525905609
+41092042 0
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41090776 0.808823525905609
+41092042 0
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856647" tv_usec="39504" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41070880 1
+41093307 0.159242630004883
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41092042 1
+41093307 0.159242630004883
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856650" tv_usec="286758" name="add marker">
+    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+      </Locations>
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354785588" tv_usec="833542" name="automation range drag">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-101636096 1.21766233444214
+  <UndoTransaction tv_sec="1354856664" tv_usec="222989" name="automation event move">
+    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41092042 1
+41093307 0.159242630004883
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-101636096 1.21766233444214
+    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23203493 0.203360319137573
+32607139 0.203360319137573
+32628081 1
+41092042 1
+41098370 0.159242630004883
 </events>
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354785590" tv_usec="574584" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-96465780 1.06603264808655
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785596" tv_usec="700888" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-96465780 1.06603264808655
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785600" tv_usec="617261" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95879168 1.27660739421844
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
+  <UndoTransaction tv_sec="1354856666" tv_usec="37062" name="automation event move">
+    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41090776 0.808823525905609
+41092042 0
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
+    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
+        <events>23217530 0
+32600511 0
+32633144 0.808823525905609
+41090776 0.808823525905609
+41099636 0
 </events>
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354785604" tv_usec="8988" name="automation event move">
+  <UndoTransaction tv_sec="1354856947" tv_usec="32725" name="automation event move">
     <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95794036 0.737662076950073
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785646" tv_usec="647340" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101636096 1.21766233444214
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101669193 1.53208541870117
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785659" tv_usec="430989" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96789364 1.35394287109375
-101669193 1.53208541870117
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-101669193 1.53208541870117
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785667" tv_usec="718636" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-101669193 1.53208541870117
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-111655477 1.60106146335602
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785670" tv_usec="878602" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-111655477 1.60106146335602
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785737" tv_usec="692044" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96465780 1.06603264808655
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96392564 1.61968839168549
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785754" tv_usec="779434" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96392564 1.61968839168549
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785813" tv_usec="1109" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96892243 1.55015504360199
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785816" tv_usec="217039" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.48271107673645
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785821" tv_usec="80898" name="automation range drag">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.48271107673645
-111678190 1.5320850610733
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.46518814563751
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785889" tv_usec="1849" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.46518814563751
-</events>
-      </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-63019126 0.0216609947383404
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.46518814563751
-</events>
-      </AutomationList>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354785890" tv_usec="478189" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
-        <events>3314 0.915185332298279
-1259219 0.299604952335358
-6206697 0.218473970890045
-7088786 0.126286596059799
-14649671 0.184040427207947
-15649028 0.299604952335358
-17170777 0.322614103555679
-17375191 0.237179979681969
-17693169 0.237179979681969
-19873585 0.25691756606102
-21758736 0.1139991953969
-22509689 0.102516770362854
-23757451 0.0260499883443117
-24109124 0
-49434624 0
-49785534 0.139406621456146
-50531124 1.01399540901184
-58939374 1.11987113952637
-59912777 0.034901537001133
-63019126 0.0216609947383404
-95043584 1.37304945191374e-09
-95137792 0.113999202847481
-95754240 0.322614192962646
-95895552 0.477718085050583
-96403971 1.35394299030304
-96914955 1.41731905937195
-111678190 1.46518814563751
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
       <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
@@ -1184,25 +839,170 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+        <events>3314 0.915185332298279
+1259219 0.299604952335358
+6206697 0.218473970890045
+7088786 0.126286596059799
+14649671 0.184040427207947
+15649028 0.299604952335358
+17170777 0.322614103555679
+17375191 0.237179979681969
+17693169 0.237179979681969
+19873585 0.25691756606102
+21758736 0.1139991953969
+22509689 0.102516770362854
+23757451 0.0260499883443117
+24109124 0
+49434624 0
+49785534 0.139406621456146
+50364769 1.35394275188446
+58939374 1.11987113952637
+59912777 0.034901537001133
+63211551 0
+95043584 1.37304945191374e-09
+95137792 0.113999202847481
+95754240 0.322614192962646
+95895552 0.477718085050583
+96403971 1.35394299030304
+96914955 1.41731905937195
+111678190 1.46518814563751
+</events>
+      </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354786152" tv_usec="944760" name="add marker">
-    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-      </Locations>
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-      </Locations>
-    </MementoCommand>
+  <UndoTransaction tv_sec="1354856951" tv_usec="828488" name="automation event move">
+    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+        <events>3314 0.915185332298279
+1259219 0.299604952335358
+6206697 0.218473970890045
+7088786 0.126286596059799
+14649671 0.184040427207947
+15649028 0.299604952335358
+17170777 0.322614103555679
+17375191 0.237179979681969
+17693169 0.237179979681969
+19873585 0.25691756606102
+21758736 0.1139991953969
+22509689 0.102516770362854
+23757451 0.0260499883443117
+24109124 0
+49434624 0
+49785534 0.139406621456146
+50364769 1.35394275188446
+58939374 1.11987113952637
+59912777 0.034901537001133
+63211551 0
+95043584 1.37304945191374e-09
+95137792 0.113999202847481
+95754240 0.322614192962646
+95895552 0.477718085050583
+96403971 1.35394299030304
+96914955 1.41731905937195
+111678190 1.46518814563751
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+        <events>3314 0.915185332298279
+1259219 0.299604952335358
+6206697 0.218473970890045
+7088786 0.126286596059799
+14649671 0.184040427207947
+15649028 0.299604952335358
+17170777 0.322614103555679
+17375191 0.237179979681969
+17693169 0.237179979681969
+19873585 0.25691756606102
+21758736 0.1139991953969
+22509689 0.102516770362854
+23757451 0.0260499883443117
+24109124 0
+49434624 0
+49785534 0.139406621456146
+50364769 1.35394275188446
+58939374 1.35394299030304
+59912777 0.034901537001133
+63211551 0
+95043584 1.37304945191374e-09
+95137792 0.113999202847481
+95754240 0.322614192962646
+95895552 0.477718085050583
+96403971 1.35394299030304
+96914955 1.41731905937195
+111678190 1.46518814563751
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1354856992" tv_usec="188988" name="automation event move">
+    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+        <events>3314 0.915185332298279
+1259219 0.299604952335358
+6206697 0.218473970890045
+7088786 0.126286596059799
+14649671 0.184040427207947
+15649028 0.299604952335358
+17170777 0.322614103555679
+17375191 0.237179979681969
+17693169 0.237179979681969
+19873585 0.25691756606102
+21758736 0.1139991953969
+22509689 0.102516770362854
+23757451 0.0260499883443117
+24109124 0
+49434624 0
+49785534 0.139406621456146
+50364769 1.35394275188446
+58939374 1.35394299030304
+59912777 0.034901537001133
+63211551 0
+95043584 1.37304945191374e-09
+95137792 0.113999202847481
+95754240 0.322614192962646
+95895552 0.477718085050583
+96403971 1.35394299030304
+96914955 1.41731905937195
+111678190 1.46518814563751
+</events>
+      </AutomationList>
+    </MementoUndoCommand>
+    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
+      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+        <events>3314 0.915185332298279
+1259219 0.299604952335358
+6206697 0.218473970890045
+7088786 0.126286596059799
+14649671 0.184040427207947
+15649028 0.299604952335358
+17170777 0.322614103555679
+17375191 0.237179979681969
+17693169 0.237179979681969
+19873585 0.25691756606102
+21758736 0.1139991953969
+22509689 0.102516770362854
+23757451 0.0260499883443117
+24109124 0
+49434624 0
+49785534 0.139406621456146
+50364769 1.35394275188446
+58939374 1.35394299030304
+59912777 0.034901537001133
+63211551 0
+95043584 1.37304945191374e-09
+95137792 0.113999202847481
+95754240 0.322614192962646
+95895552 0.477718085050583
+96403971 1.35394299030304
+96914955 1.41731905937195
+111678190 1.46518814563751
+</events>
+      </AutomationList>
+    </MementoRedoCommand>
   </UndoTransaction>
 </UndoHistory>
