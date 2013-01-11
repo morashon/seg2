@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="2.0.0" name="seg2" sample-rate="44100" id-counter="21215">
+<Session version="2.0.0" name="seg2" sample-rate="44100" id-counter="22483">
   <Config>
     <Option name="output-auto-connect" value="2"/>
     <Option name="input-auto-connect" value="1"/>
@@ -453,7 +453,7 @@
   <Connections/>
   <Routes>
     <Route flags="MasterOut" default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=0:signal=0">
-      <IO name="master" id="18" active="yes" inputs="{Music1/out 1,Music2/out 1,Bus 4/out 1,Bus 5/out 1,Annai/out 1,Thisone/out 1,Bus 1/out 1,Bus 2/out 1,Bus 3/out 1,morashon_theme2/out 1,Bus 6/out 1,Bus 7/out 1}{Music1/out 2,Music2/out 2,Bus 4/out 2,Bus 5/out 2,Annai/out 2,Thisone/out 2,Bus 1/out 2,Bus 2/out 2,Bus 3/out 2,morashon_theme2/out 2,Bus 6/out 2,Bus 7/out 2}" outputs="{system:playback_1}{system:playback_2}" gain="1.000000000000" iolimits="-1,2,-1,2">
+      <IO name="master" id="18" active="yes" inputs="{Bus 7/out 1,Bus 6/out 1,morashon_theme2/out 1,Bus 3/out 1,Bus 2/out 1,Bus 1/out 1,Thisone/out 1,Annai/out 1,Bus 5/out 1,Bus 4/out 1,Music2/out 1,Music1/out 1}{Bus 7/out 2,Bus 6/out 2,morashon_theme2/out 2,Bus 3/out 2,Bus 2/out 2,Bus 1/out 2,Thisone/out 2,Annai/out 2,Bus 5/out 2,Bus 4/out 2,Music2/out 2,Music1/out 2}" outputs="{system:playback_1}{system:playback_2}" gain="1.000000000000" iolimits="-1,2,-1,2">
         <Panner linked="no" link_direction="SameDirection" bypassed="no">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -532,6 +532,11 @@
 95895552 0.477718085050583
 96403971 1.35394299030304
 96914955 1.41731905937195
+108328146 1.43956828117371
+108918675 1.30201017856598
+110746970 1.30201017856598
+111053666 1.08349812030792
+111303506 1.33551073074341
 111678190 1.46518814563751
 </events>
           </AutomationList>
@@ -586,7 +591,7 @@
             <AutomationList id="403" default="0.250375002623" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
           </port>
           <port number="5">
-            <AutomationList id="405" default="0.286082476377" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Touch" style="Absolute">
+            <AutomationList id="405" default="0.286082476377" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Play" style="Absolute">
               <events>147456 0.286082476377487
 155648 0.286082476377487
 176127 0.300368189811707
@@ -602,8 +607,8 @@
         </PortAutomation>
       </Insert>
       <extra>
-        <GUI color="43425:5574:25989" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
+        <GUI color="43425:5574:25989" shown_mixer="yes" height="88" shown_editor="yes">
+          <gain shown="yes" height="128"/>
           <pan shown="no" height="84"/>
           <Redirect-C__Plate2x2___Versatile_plate_reverb__stereo_inputs-2 height="70"/>
           <Redirect-C__Plate2x2___Versatile_plate_reverb__stereo_inputs-3 height="70"/>
@@ -612,7 +617,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20566"/>
+      <controllable name="recenable" id="21830"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2" mode="Normal" diskstream-id="1610">
       <IO name="Music2" id="1603" active="yes" inputs="{system:capture_1}{system:capture_2}" outputs="{master/in 1}{master/in 2}" gain="0.062168851495" iolimits="1,-1,-1,-1">
@@ -793,7 +798,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20579"/>
+      <controllable name="recenable" id="21843"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3" mode="Normal" diskstream-id="7779">
       <IO name="ThisoneAnnai" id="7772" active="yes" inputs="{system:capture_2}{system:capture_1}" outputs="{Bus 4/in 1}{Bus 5/in 1}" gain="0.917336165905" iolimits="1,-1,-1,-1">
@@ -966,7 +971,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20592"/>
+      <controllable name="recenable" id="21856"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
       <IO name="Bus 4" id="8440" active="yes" inputs="{ThisoneAnnai/out 1}" outputs="{master/in 1}{master/in 2}" gain="0.890855193138" iolimits="-1,-1,-1,-1">
@@ -1017,7 +1022,7 @@
         </controls>
         <PortAutomation>
           <port number="0">
-            <AutomationList id="11202" default="36.1194953918" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Touch" style="Absolute">
+            <AutomationList id="11202" default="36.1194953918" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Play" style="Absolute">
               <events>59580757 36.1194953918457
 59584853 34.5868225097656
 59588949 21.4669132232666
@@ -1207,7 +1212,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20623"/>
+      <controllable name="recenable" id="21887"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=7:signal=7" mode="Normal" diskstream-id="775">
       <IO name="Thisone" id="768" active="yes" inputs="{system:capture_1}" outputs="{master/in 1}{master/in 2}" gain="0.944349944592" iolimits="1,-1,-1,-1">
@@ -1278,7 +1283,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20636"/>
+      <controllable name="recenable" id="21900"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=8:signal=8">
       <IO name="Bus 1" id="3244" active="yes" inputs="{AnnThisMor/out 1}" outputs="{master/in 1}{master/in 2}" gain="0.494633793831" iolimits="-1,-1,-1,-1">
@@ -1629,7 +1634,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20685"/>
+      <controllable name="recenable" id="21949"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
       <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
@@ -1656,7 +1661,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20701"/>
+      <controllable name="recenable" id="21965"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=13:signal=13" mode="Normal" diskstream-id="18179">
       <IO name="morashon_theme3" id="18172" active="yes" inputs="{system:capture_2}{system:capture_1}" outputs="{Bus 6/in 1}{Bus 7/in 1}" gain="0.592384696007" iolimits="1,-1,-1,-1">
@@ -1697,7 +1702,7 @@
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="20714"/>
+      <controllable name="recenable" id="21978"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=14:signal=14">
       <IO name="Bus 6" id="18215" active="yes" inputs="{morashon_theme3/out 1}" outputs="{master/in 1}{master/in 2}" gain="0.137854889035" iolimits="-1,-1,-1,-1">
@@ -2457,8 +2462,8 @@
     <Meter start="1|1|0" note-type="4.000000" beats-per-bar="4.000000" movable="no"/>
   </TempoMap>
   <ControlProtocols>
-    <Protocol name="Mackie" active="no"/>
     <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="Mackie" active="no"/>
   </ControlProtocols>
   <extra>
     <ClockModes primary="SMPTE" secondary="BBT" preroll="MinSec" postroll="MinSec" bigclock="SMPTE" editpoint="BBT" zoomrange="SMPTE" nudge="SMPTE" sfboxLengthClock="BBT" sfboxTimecodeClock="SMPTE"/>
