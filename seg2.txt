@@ -948,70 +948,63 @@ Annai blips away.  Thisone lies down again, drifting.
 
 Song: Half In Love
 
-Sung by: Thisone
-
+{time=2189}
+_Thisone:
 My life is boring today
-
 My youth is slipping away
-
 My heart is frozen and hard
-
 I'm held by my own retard
 
+_NOACTOR:
 Suddenly someone comes into my life
-
 And I'm a child again so help me
-
 I'm in need of friendship more than love
 
-But love's exactly what I've found
-
+_But love's exactly what I've found
 And now the sun is shining through her
-
 Hair and I think half of me's in love
 
 Love
+Love
+Love
 
-I thought I knew what to do
-
+_I thought I knew what to do
 I thought I might have a clue
-
 I knew what each day would bring
-
 I knew which song I would sing
 
-Suddenly she's there I can hardly breathe
-
+_Suddenly she's there I can hardly breathe
 Because she touches me somewhere deep inside
-
 I know it's just a feeling
 
-And feelings haven't any clue about
-
+_And feelings haven't any clue about
 Responsibilities, eventualities
-
 Oh half of me's in love
 
+_Love
+Love
 Love
 
+{time=2349.6}
+{hold=15}
+_Love (half of me's in love)
+Love (half of me's in love)
+Love (half of me's in love)
+Love (half of me's in love)
+
+{time=2419.6}
+_Love
+Love
+Love
 Love
 
+_Love (half of me's in love)
+Love (half of me's in love)
+Love (half of me's in love)
 Love (half of me's in love)
 
-Love (half of me's in love)
-
-(interlude)
-
-Love
-
-Love
-
-Love (half of me's in love)
-
-Love (half of me's in love)
-
-(repeat...)
-
+{time=2518}
 I'm half in love!
 
 {time=2200}
+
