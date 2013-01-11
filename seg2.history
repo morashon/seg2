@@ -1,73 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv_sec="1354856546" tv_usec="140266166294015" name="automation event move">
-    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41070880 0.808823525905609
-41129859 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41070880 0.808823525905609
-41097688 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354856572" tv_usec="140266166294015" name="automation event move">
-    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23203493 0.203360319137573
-32607139 0.203360319137573
-32628081 1
-41070880 1
-41103050 0.18865442276001
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23203493 0.203360319137573
-32607139 0.203360319137573
-32628081 1
-41070880 1
-41081603 0.173948526382446
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354856577" tv_usec="140266166294015" name="automation event move">
-    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41070880 0.808823525905609
-41097688 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41070880 0.808823525905609
-41076241 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354856600" tv_usec="140266166294015" name="region drag">
-    <MementoUndoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+  <UndoTransaction tv_sec="1354856600" tv_usec="139859493836287" name="region drag">
+    <MementoUndoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -135,7 +69,7 @@
         </Crossfade>
       </Playlist>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+    <MementoRedoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -184,8 +118,8 @@
       </Playlist>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856613" tv_usec="140266166294015" name="Region end trim">
-    <MementoUndoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+  <UndoTransaction tv_sec="1354856613" tv_usec="139859493836287" name="Region end trim">
+    <MementoUndoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -233,7 +167,7 @@
         </Crossfade>
       </Playlist>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+    <MementoRedoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -281,7 +215,7 @@
         </Crossfade>
       </Playlist>
     </MementoRedoCommand>
-    <MementoRedoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+    <MementoRedoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -330,8 +264,8 @@
       </Playlist>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856616" tv_usec="140266166294015" name="region drag">
-    <MementoUndoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+  <UndoTransaction tv_sec="1354856616" tv_usec="139859493836287" name="region drag">
+    <MementoUndoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -379,7 +313,7 @@
         </Crossfade>
       </Playlist>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="19238" type_name="N6ARDOUR13AudioPlaylistE">
+    <MementoRedoCommand obj_id="20509" type_name="N6ARDOUR13AudioPlaylistE">
       <Playlist name="morashon_theme3" orig_diskstream_id="18179" frozen="no">
         <Region id="18198" name="morashon_theme3.3" start="0" length="9049841" position="23580587" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="18163" source-1="18165" channels="2" master-source-0="18163" master-source-1="18165">
           <FadeIn default="yes" active="yes"/>
@@ -448,7 +382,7 @@
       </Playlist>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856632" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856632" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23217530 0
@@ -470,7 +404,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856638" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856638" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23203493 0.203360319137573
@@ -492,7 +426,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856643" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856643" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23217530 0
@@ -514,7 +448,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856647" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856647" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23203493 0.203360319137573
@@ -536,7 +470,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856650" tv_usec="140266166294015" name="add marker">
+  <UndoTransaction tv_sec="1354856650" tv_usec="139859493836287" name="add marker">
     <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
       <Locations>
         <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
@@ -559,7 +493,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856664" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856664" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23203493 0.203360319137573
@@ -581,7 +515,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856666" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856666" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
       <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
         <events>23217530 0
@@ -603,7 +537,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856947" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856947" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
       <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
@@ -669,7 +603,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856951" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856951" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
       <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
@@ -735,7 +669,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856992" tv_usec="140266166294015" name="automation event move">
+  <UndoTransaction tv_sec="1354856992" tv_usec="139859493836287" name="automation event move">
     <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
       <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
@@ -801,7 +735,7 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354859436" tv_usec="878406" name="mute change">
+  <UndoTransaction tv_sec="1354859436" tv_usec="139859493836287" name="mute change">
     <MementoCommand obj_id="3262" type_name="N6ARDOUR5RouteE">
       <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
         <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
@@ -1025,7 +959,7 @@
       </Route>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354859438" tv_usec="749962" name="mute change">
+  <UndoTransaction tv_sec="1354859438" tv_usec="139859493836287" name="mute change">
     <MementoCommand obj_id="3262" type_name="N6ARDOUR5RouteE">
       <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
         <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
@@ -1249,7 +1183,7 @@
       </Route>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354859441" tv_usec="668546" name="mute change">
+  <UndoTransaction tv_sec="1354859441" tv_usec="139859493836287" name="mute change">
     <MementoCommand obj_id="3195" type_name="N6ARDOUR10AudioTrackE">
       <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
         <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
@@ -1307,7 +1241,7 @@
       </Route>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354859450" tv_usec="148768" name="mute change">
+  <UndoTransaction tv_sec="1354859450" tv_usec="139859493836287" name="mute change">
     <MementoCommand obj_id="3195" type_name="N6ARDOUR10AudioTrackE">
       <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
         <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
@@ -1363,6 +1297,78 @@
         <alignment style="ExistingMaterial"/>
         <controllable name="recenable" id="19430"/>
       </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1357804148" tv_usec="460830" name="move marker">
+    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="111751505" end="111751505" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1357804192" tv_usec="943744" name="move marker">
+    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="111751505" end="111751505" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="111554984" end="111554984" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1357804211" tv_usec="262040" name="move marker">
+    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="111554984" end="111554984" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
+      <Locations>
+        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+        <Location id="16" name="end" start="111498835" end="111498835" flags="IsMark,IsEnd" locked="no"/>
+        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
+        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
+        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
+        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
+      </Locations>
     </MementoCommand>
   </UndoTransaction>
 </UndoHistory>
