@@ -547,9 +547,10 @@ Thisone is sitting in a lounge chair, with heads-up displays, code and visualiza
 
 Annai ports in, on a stool nearby
 
-{time=1353.5}
+{time=1353}
 _Thisone: (still looking at his screens) You came.
 
+{nudge=-1}
 _Annai: Here I am.
 
 _Thisone: So you thought about what I said?
@@ -562,46 +563,62 @@ _Annai: Ok, I'll help.  I don't think we'll find anything, but as he says, he's 
 
 _Thisone: Right.  We'll see.
 
+{nudge=2}
 _Annai: So -- are you reviewing his code?
 
+{time=1373}
+{nudge=1.5}
 _Thisone: We're talking petaLOCs.  Over a quadrillion lines of code equivalent.  Practically all of it algorithmically generated.
 
-_Annai: So, what's the line of attack?  I just reviewed his kernel, the part that started it off.  Lots of tricky corner cases, but the core ideas are manageable.
+{nudge=1}
+_Annai: So, what's the line of attack?  I just reviewed his kernel, the part that starts it off.  Lots of tricky corner cases, but the core ideas are manageable.
 
+{nudge=1}
 _Thisone: Yes, I checked that part out.  But keep in mind, that just bootstraps the process.  Each iteration generates orders of magnitude more code, which then generates more code, and so on.
 
+{nudge=1}
 _Annai: Right, that's the only way you could get a logic base that huge.
 
+{nudge=1}
 _Thisone: Of course.  And it's massively parallel.  He must be using a noticeable portion of our local grid coords.  I'd be surprised if the authorities didn't know about him.
 
 _Annai: I'm sure they do.  I guess they're all for it.
 
+{nudge=1}
 _Thisone: Maybe.  Actually, he seems to mask a significant percentage from inspection.  There are a few core libs that don't register themselves in the normal way.
 
+{time=1426.8}
 _Annai: Really?  I didn't notice that.  Let me see.
 
 Thisone pulls up a display. As Annai looks at it, it morphs into a 3D data representation.  The camera zooms and careens through a forest of multicolored textured prims.
 
+{nudge=1}
 _Annai: That's really weird.  I've never seen a mask like that before.  It's kind of amateurish.
 
+{nudge=1}
 _Thisone: Almost as if he's trying a bit too hard to look suspicious.
 
 _Annai: Exactly.  Misdirection?
 
+{nudge=1}
 _Thisone: Lull you into a false sense of superiority?  When the real mask is somewhere else.
 
+{time=1449}
 _Annai: Wait -- pull up the kernel again.
 
 Screens close, new ones open.  Perspectives shift and warp.
 
+{nudge=1}
 _Annai: Check this out. (she pulls the camera back quickly through a screen, zooms in on a small prim) Does that ring a bell?
 
+{nudge=-1}
 _Thisone: Ack -- that's grid kernel code from maybe 15 years ago.  How did you even know to look for it?  It's before your time.
 
 _Annai: I'm a student of history.  I've disassembled the kernel back ten major revs.
 
 _Thisone: (whistles) You're quite the hacker, for a --
 
+{time=1470}
 _Annai: A girl?
 
 _Thisone: I was going to say, for someone so young.  I associate youth with talent, energy, and inexperience.
@@ -616,6 +633,7 @@ _Thisone: Why would he start with some old cruft like this?  It's completely obs
 
 _Annai: Yes, but the security mods have this stuff whitelisted.  Maybe, if you just change an op here or there, you can get something by them.
 
+{time=1497.5}
 _Thisone: Maybe, but not easily.  You could only change a few ops at a time.  They do random testing; too slow to brute force every op every cycle.  You might pass occasionally, but you'd still fail some percentage of the time.
 
 _Annai: It gets trickier.  The diffs all look like patches from one old version to another.
@@ -628,14 +646,16 @@ _Thisone: that's pretty clever.  And wholly illegal.
 
 _Annai: What's it for?  What's the code actually do?
 
-_Thisone: We can't figure that out from the source.  It's too fluid.  We'd have to put a monitor in there.
+_Thisone: We can't figure that out from the source.  It's too fluid.  We'll have to put a monitor in there.
 
 _Annai: Hold on.  I said I'd help you analyze.  That's outright hackery.
 
 _Thisone: Look, you've seen that there's something fishy.  Above-board open source doesn't have wicked masking code like this.
 
+{time=1554.7}
 _Annai: Well, no.  It wouldn't, usually.
 
+{nudge=1}
 _Thisone: So we know there's something else going on.  All I'm suggesting is, we find out what it is.  It's open source anyway -- we have as much right to hack on it as anyone.
 
 _Annai: Oh, right.  So -- you're going to check your changes in and add a log entry?
@@ -646,6 +666,7 @@ _Annai: Hah.  Let's see who believes it.
 
 _Thisone: Well, if it comes to that, Morashon, or his dev team, whoever he really is, they'll have some explaining to do themselves.
 
+{time=1594}
 _Annai: Tit for tat?
 
 _Thisone: Exactly.  What's good for the goose.
@@ -656,20 +677,27 @@ _Thisone: How convenient.  Espouse a philosophy of trust.  Do as I say, not as I
 
 _Annai: (looking dejected) I guess I'm in, for now.   I really trusted him.  I never expected something like this.
 
+{nudge=-1}
+{time=1615}
 _Thisone: Maybe there's an innocent explanation.  They may be protecting some proprietary IP through obfuscation.  There's some case law about that -- if it's hard enough to decipher, you can claim trade secret.
 
+{time=1626.9}
 _Annai: Huh.  Maybe.  But he's not what he says he is.  A lie is a lie.
 
 _Thisone: Well, the other scenarios are even darker.
 
 _Annai: L Ron?
 
+{nudge=1}
 _Thisone: Something like that.
 
+{nudge=1}
 _Annai: So, when I listen to his music, and it moves me -- makes me feel like he understands me, what's in my soul -- is that real?
 
+{time=1649}
 _Thisone: (pauses) I don't know.  I guess, if it means something to you, it means something.  His motivations may be complex.  He may contradict himself morally, but still be a great artist.  I keep calling him "he", but it's probably "them".  I don't know anymore; I'm out of my depth.
 
+{time=1666}
 _Annai: "...I contradict myself.  I am large; I contain multitudes."
 
 _Thisone: (pause as he looks it up) Walt Whitman?
@@ -680,12 +708,14 @@ _Thisone: Oh.  (reads some more) Not bad.
 
 _Annai: I'll do it.
 
+{nudge=1}
 _Thisone: The monitor?  I thought I would...
 
 _Annai: Let me do it.  I know him better.  I'll be able to mask it.
 
 _Thisone: Umm, ok.  Let me review it before you take it live.
 
+{time=1691}
 _Annai: Sure.  I'll ping you when it's done.
 
 Annai ports away.
@@ -696,6 +726,7 @@ Thisone falls asleep.
 
 Scene: Thisone's sim.  Annai appears on a screen, as her avatar.
 
+{time=1718}
 _Thisone: Hi.  You look alot like your av.
 
 _Annai: Very funny.  I think I found something.
