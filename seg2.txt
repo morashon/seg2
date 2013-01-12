@@ -715,18 +715,21 @@ _Annai: Let me do it.  I know him better.  I'll be able to mask it.
 
 _Thisone: Umm, ok.  Let me review it before you take it live.
 
-{time=1691}
+{nudge=2.4}
+Annai ports away.
+
+{time=1691.2}
 _Annai: Sure.  I'll ping you when it's done.
 
-Annai ports away.
+{nudge=5}
+Thisone falls asleep.
 
 _Thisone: (sarcastically, to the empty chair).  Oh, ok then.  Nice seeing you.  Bubbye for now, I guess. (closes screens, lies down with his hands behind his head)
 
-Thisone falls asleep.
-
+{nudge=-2}
 Scene: Thisone's sim.  Annai appears on a screen, as her avatar.
 
-{time=1718}
+{time=1706}
 _Thisone: Hi.  You look alot like your av.
 
 _Annai: Very funny.  I think I found something.
@@ -745,16 +748,21 @@ _Annai: You were right.  It's not AI.  It's an interface.
 
 _Thisone: So some hackers --
 
-_Annai: Somebody, somewhere, runs it.  Not Finland, AFAICT.
+{time=1730}
+{nudge=2}
+_Annai: Somebody, somewhere, runs it.  Not Finland, as far as I can tell.
 
+{nudge=1}
 _Thisone: I assume it's masked?
 
+{nudge=1}
 _Annai: Yep, serious wicked firewall.  Impossible to tell who's controlling it. But --
 
 _Thisone: We could intercept.
 
 _Annai: Yes.  Now that we know what's going on, we could take over; be Morashon.
 
+{time=1751}
 _Thisone: But the interface gear -- all the heads and limbs and stuff.  Multiple conversations?
 
 _Annai: That's the interesting part.  It's not real AI, but there's some tasty interface code.  It seems like they use available stuff -- advanced, expensive; but not something totally new.
@@ -775,38 +783,52 @@ _Thisone: I dunno -- this sounds a bit dangerous.  We don't know who these peopl
 
 _Annai: This is the only way to find out.  Use their own code to send a message.
 
+{time=1801}
 _Thisone: What about the music?
 
 _Annai: There's a huge database of stuff they must be cribbing from.  Obscure releases that were never popular.  Then they run algorithms to extrapolate new tunes from a style mix.  But you still need some talent to make it into something listenable.
 
+{time=1815.5}
 _Thisone: So they have an artist.
 
 _Annai: At least one.  I have to believe that.  This isn't your run-of-the-mill bunch of hackers.
 
+{nudge=-1}
 _Thisone: more like an anachro-performance troupe with hacker skillz.
 
+{nudge=-1}
 _Annai: If you say so.  But I want to know who he, she, they, really are.  I feel betrayed.
 
+{nudge=-1}
 _Thisone: Because he lied to you?
 
+{nudge=-1}
 _Annai: Because he preaches about trust, transparency, cooperation versus defection.  And he's hiding something.  "He".  That's rich.
 
+{nudge=-1}
 _Thisone: I still don't know if you're a she.
 
+{nudge=-1}
 _Annai: (makes a face) You know I am.
 
+{nudge=-1.7}
 _Thisone: I think so.
 
+{nudge=-1}
 _Annai: Well I am, if it matters so much.  And bytheway, I know you're a dude.
 
+{nudge=-1}
 _Thisone: How can you be so sure?
 
+{nudge=-1}
 _Annai: (laughing) You're a mega-dude.  Mega-nerdy dude.
 
 _Thisone: (avatar blushes) Thanks for the compliment?
 
+{nudge=-1}
 _Annai: No, it's ok.  I like it.
 
+{nudge=-.5}
 _Thisone: Um, oh... I guess we never traded pics.
 
 _Annai: I just look like this.
@@ -819,44 +841,57 @@ _Thisone: Well still...
 
 _Annai: There you go again.  You know we'll never meet (air quotes) "in real life", unless we win the megalot or something.
 
+{nudge=-1.5}
 _Thisone: No, I know, but still...
 
+{nudge=-1}
 _Annai: So? Who cares what's "real"?  I could send you pics, vids even, and how would you know they weren't shopped up?
 
-(pause)
-
+{nudge=-1.5}
 _Thisone: Oh, I guess...
 
+{nudge=-1}
 _Annai: Anyway, why are we talking about this?  Are we flirting?  Is this a date or something?
 
+{nudge=-1.5}
 _Thisone: Umm, no, Annai -- I mean, well, I -- ahm -- I don't know what to say.
 
+{time=1903.5}
 _Annai: Say what you feel.  Mean what you say.
 
 _Thisone: I've never been good at this.  I -- since the breakdown, I've never...
 
-_Annai: (pauses) That's a long time.  To be alone.
+_Annai: That's a long time.  To be alone.
 
 _Thisone: Yeah.  Well, it just -- never felt right.
 
+{nudge=1}
 _Annai: I was 11.
 
+{nudge=1}
 _Thisone: so you never --
 
+{nudge=1.5}
 _Annai: Never.  Offline, I mean.
 
+{nudge=1}
 _Thisone: So, online..?
 
+{nudge=1}
 _Annai: There were some guys.  At least I think they were guys. (Chuckles).  And a girl.
 
+{nudge=1}
 _Thisone: Oh... I'm beginning to feel old.
 
+{nudge=1}
 _Annai: It's just sex.  And technologly.  Gridsex, you know.  It's a release. Why be embarrassed?  It's no big deal.
 
 _Thisone: It just never felt real to me.  I tried a couple times.  It was so, awkward.
 
+{nudge=-2}
 Annai teleports in to the sim
 
+{time=1949}
 _Thisone: Oh.  Hi there.
 
 _Annai: Do you have all the gear?
@@ -877,11 +912,13 @@ _Thisone: Ack, you're so -- um, it's so easy for you to talk about this stuff..
 
 _Annai: It's just something we can do, you know.  Like music, or hacking.  It's just another part of life.
 
+{time=1980.6}
 _Thisone: No, I can't believe that.  I don't see it that way. It's something different.  In real life --
 
+{time=1986.8}
 _Annai: There you go again.  Can't you get it into your head that "real life" is over?
 
-_Thisone: Not when it comes to this.  Something so -- so personal.  It can't be the same.
+_Thisone: Not when it comes to -- this.  Something so -- personal.  It can't be the same.
 
 _Annai: It's not the same, I guess.  Some people say it's better.  I wouldn't know.
 
@@ -899,38 +936,48 @@ _Annai: Did she make it?
 
 _Thisone: She was across the universe.
 
+{time=2023}
 _Annai: Oh.  Separated.
 
 _Thisone: Right.
 
 _Annai: And you couldn't afford to --
 
+{time=2028}
 _Thisone: Well, at first, travel was restricted to government officials, remember?  They kept saying they would open it up to everyone, but -- you know the rest.
 
+{time=2036}
 _Annai: Eventually they did, sort of.
 
 _Thisone: three years pay for a single trip, on a standard salary.  Even then, no guarantee you'd be allowed to resettle.
 
+{nudge=-2}
 _Annai: That sucks.
 
+{nudge=-2}
 _Thisone: We kept saying we'd save up.  A few years went by, but we never managed to get it together.
 
+{nudge=-2}
 _Annai: Sorry.
 
 _Thisone: It's ok.  I'm not sure she really wanted to.  She met someone local.  They had a large shelter, a few thousand.
 
+{nudge=-2}
 _Annai: Wow.  That's -- well, it sucks.
 
+{nudge=-1}
 _Thisone: So what about you?  Aren't there any boys where you live?
 
+{nudge=-1}
 _Annai: One or two.  Duds.  Completely boring.  Anyway, who said I only like boys?
 
+{nudge=-1}
 _Thisone: Well, boys or girls, whatever.  I mean men, women.
 
+{nudge=-1}
 _Annai: Don't worry, I'm of age.  Like I said, no one clicked.  It's the grid life for me.
 
-(awkward pause)
-
+{nudge=-1.5}
 Annai touches Thisone's thigh.
 
 _Annai: Do you feel that?
@@ -941,52 +988,70 @@ _Annai: Why do you gear, if you don't -- if there's nobody?
 
 _Thisone: (embarrassed) well, there's -- I, um --
 
+{nudge=-1}
 _Annai: Bots?  You do botsex, but not gridsex?
 
 _Thisone: Look, this is getting embarrassing.
 
 _Annai: (laughs) That's so funny.  I'm sorry.  I didn't mean to laugh.  (laughs some more)
 
+{nudge=-2}
 _Thisone: Ok, enough fun and games.
 
+{nudge=-2}
 _Annai: (mock serious) You're right. Let's not get silly here.
 
+{nudge=-2.5}
 _Thisone: Well, maybe -- I could -- try again.  Someday.
 
+{nudge=-2}
 _Annai: Did I offer myself?  Am I that easy?
 
+{nudge=-2}
 _Thisone: I didn't mean that.
 
+{nudge=-2}
 _Annai: Well, I did.  Sort of.  Offer.
 
+{nudge=-1}
 _Thisone: So you don't really care what I really look like?
 
+{nudge=-2}
 _Annai: I see you.  I feel you.  I know who you are.
 
+{nudge=-2}
 _Thisone: I could be fat, sick, older than I'm saying.  Just plain ugly.
 
+{nudge=-3}
 _Annai: Maybe.  But you would still be you.  And I like you.
 
+{nudge=-2}
 _Thisone: (stammering) I -- thank you.
 
+{nudge=-2}
 _Annai: Sure.  Anytime.  I mean, I don't mean -- my moods change.  I'm not promising anything.  But I'll like you, until I don't.  And I hope I don't.  Stop liking you, I mean.
 
+{nudge=2}
 They move closer, and kiss gently on the lips.
 
+{time=2162}
+
+
+{time=2171}
 _Annai: Bye for now.
 
 Annai blips away.  Thisone lies down again, drifting.
 
 Song: Half In Love
 
-{time=2190}
+{time=2177}
 _Thisone:
 My life is boring today
 My youth is slipping away
 My heart is frozen and hard
 I'm held by my own retard
 
-{time=2216}
+{time=2203}
 _NOACTOR:
 Suddenly someone comes into my life
 And I'm a child again so help me
@@ -997,7 +1062,7 @@ _But love's exactly what I've found
 And now the sun is shining through her
 Hair and I think half of me's in love
 
-{time=2249}
+{time=2236}
 _Love
 Love
 Love
