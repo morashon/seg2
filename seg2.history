@@ -1,52 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv_sec="1354856664" tv_usec="140317558167039" name="automation event move">
-    <MementoUndoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23203493 0.203360319137573
-32607139 0.203360319137573
-32628081 1
-41092042 1
-41093307 0.159242630004883
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="18253" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18253" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23203493 0.203360319137573
-32607139 0.203360319137573
-32628081 1
-41092042 1
-41098370 0.159242630004883
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354856666" tv_usec="140317558167039" name="automation event move">
-    <MementoUndoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41090776 0.808823525905609
-41092042 0
-</events>
-      </AutomationList>
-    </MementoUndoCommand>
-    <MementoRedoCommand obj_id="18250" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="18250" default="0" min_yval="0" max_yval="1" max_xval="0" state="Play" style="Absolute">
-        <events>23217530 0
-32600511 0
-32633144 0.808823525905609
-41090776 0.808823525905609
-41099636 0
-</events>
-      </AutomationList>
-    </MementoRedoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354856947" tv_usec="140317558167039" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1354856664" tv-usec="3909317424" name="automation event move"/>
+  <UndoTransaction tv-sec="1354856666" tv-usec="3909317424" name="automation event move"/>
+  <UndoTransaction tv-sec="1354856947" tv-usec="3909317424" name="automation event move">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -77,8 +35,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -110,9 +68,9 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856951" tv_usec="140317558167039" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1354856951" tv-usec="3909317424" name="automation event move">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -143,8 +101,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -176,9 +134,9 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354856992" tv_usec="140317558167039" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1354856992" tv-usec="3909317424" name="automation event move">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -209,8 +167,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -242,645 +200,16 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1354859436" tv_usec="140317558167039" name="mute change">
-    <MementoCommand obj_id="3262" type_name="N6ARDOUR5RouteE">
-      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
-        <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="no">
-            <Output x="0" y="0"/>
-            <Output x="1" y="0"/>
-            <StreamPanner x="0.123780488968" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3325" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3324"/>
-            </StreamPanner>
-            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3328" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3327"/>
-            </StreamPanner>
-          </Panner>
-          <controllable name="gaincontrol" id="3263"/>
-          <Automation>
-            <AutomationList id="3264" default="0.67551779747" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3266"/>
-        <controllable name="mute" id="3267"/>
-        <remote_control id="11"/>
-        <Insert type="ladspa" unique-id="1772" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="C* Compress - Mono compressor" id="3314" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3315"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="1" value="+6.000000"/>
-            <port number="2" value="+1.000000"/>
-            <port number="3" value="+0.001000"/>
-            <port number="4" value="+0.500500"/>
-            <port number="5" value="+0.000000"/>
-            <port number="6" value="+3.250000"/>
-          </ladspa>
-          <controls/>
-          <PortAutomation>
-            <port number="1">
-              <AutomationList id="3340" default="6" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3341" default="1" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="3">
-              <AutomationList id="3342" default="0.0010000000475" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="4">
-              <AutomationList id="3343" default="0.500500023365" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="5">
-              <AutomationList id="3344" default="0" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="6">
-              <AutomationList id="3345" default="3.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <Insert type="ladspa" unique-id="1423" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="Plate reverb" id="3319" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3320"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="0" value="+4.255000"/>
-            <controllable name="Reverb time" id="3447"/>
-            <port number="1" value="+0.250000"/>
-            <controllable name="Damping" id="3448"/>
-            <port number="2" value="+0.378866"/>
-            <controllable name="Dry/wet mix" id="3449"/>
-          </ladspa>
-          <controls>
-            <controllable name="Reverb time" id="3447" parameter="0"/>
-            <controllable name="Damping" id="3448" parameter="1"/>
-            <controllable name="Dry/wet mix" id="3449" parameter="2"/>
-          </controls>
-          <PortAutomation>
-            <port number="0">
-              <AutomationList id="3346" default="4.25500011444" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="1">
-              <AutomationList id="3347" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3348" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <extra>
-          <GUI color="7077:38551:29369" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-      </Route>
-      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
-        <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="no">
-            <Output x="0" y="0"/>
-            <Output x="1" y="0"/>
-            <StreamPanner x="0.123780488968" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3325" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3324"/>
-            </StreamPanner>
-            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3328" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3327"/>
-            </StreamPanner>
-          </Panner>
-          <controllable name="gaincontrol" id="3263"/>
-          <Automation>
-            <AutomationList id="3264" default="0.67551779747" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3266"/>
-        <controllable name="mute" id="3267"/>
-        <remote_control id="11"/>
-        <Insert type="ladspa" unique-id="1772" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="C* Compress - Mono compressor" id="3314" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3315"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="1" value="+6.000000"/>
-            <port number="2" value="+1.000000"/>
-            <port number="3" value="+0.001000"/>
-            <port number="4" value="+0.500500"/>
-            <port number="5" value="+0.000000"/>
-            <port number="6" value="+3.250000"/>
-          </ladspa>
-          <controls/>
-          <PortAutomation>
-            <port number="1">
-              <AutomationList id="3340" default="6" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3341" default="1" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="3">
-              <AutomationList id="3342" default="0.0010000000475" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="4">
-              <AutomationList id="3343" default="0.500500023365" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="5">
-              <AutomationList id="3344" default="0" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="6">
-              <AutomationList id="3345" default="3.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <Insert type="ladspa" unique-id="1423" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="Plate reverb" id="3319" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3320"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="0" value="+4.255000"/>
-            <controllable name="Reverb time" id="3447"/>
-            <port number="1" value="+0.250000"/>
-            <controllable name="Damping" id="3448"/>
-            <port number="2" value="+0.378866"/>
-            <controllable name="Dry/wet mix" id="3449"/>
-          </ladspa>
-          <controls>
-            <controllable name="Reverb time" id="3447" parameter="0"/>
-            <controllable name="Damping" id="3448" parameter="1"/>
-            <controllable name="Dry/wet mix" id="3449" parameter="2"/>
-          </controls>
-          <PortAutomation>
-            <port number="0">
-              <AutomationList id="3346" default="4.25500011444" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="1">
-              <AutomationList id="3347" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3348" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <extra>
-          <GUI color="7077:38551:29369" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-      </Route>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354859438" tv_usec="140317558167039" name="mute change">
-    <MementoCommand obj_id="3262" type_name="N6ARDOUR5RouteE">
-      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
-        <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="no">
-            <Output x="0" y="0"/>
-            <Output x="1" y="0"/>
-            <StreamPanner x="0.123780488968" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3325" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3324"/>
-            </StreamPanner>
-            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3328" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3327"/>
-            </StreamPanner>
-          </Panner>
-          <controllable name="gaincontrol" id="3263"/>
-          <Automation>
-            <AutomationList id="3264" default="0.67551779747" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3266"/>
-        <controllable name="mute" id="3267"/>
-        <remote_control id="11"/>
-        <Insert type="ladspa" unique-id="1772" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="C* Compress - Mono compressor" id="3314" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3315"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="1" value="+6.000000"/>
-            <port number="2" value="+1.000000"/>
-            <port number="3" value="+0.001000"/>
-            <port number="4" value="+0.500500"/>
-            <port number="5" value="+0.000000"/>
-            <port number="6" value="+3.250000"/>
-          </ladspa>
-          <controls/>
-          <PortAutomation>
-            <port number="1">
-              <AutomationList id="3340" default="6" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3341" default="1" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="3">
-              <AutomationList id="3342" default="0.0010000000475" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="4">
-              <AutomationList id="3343" default="0.500500023365" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="5">
-              <AutomationList id="3344" default="0" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="6">
-              <AutomationList id="3345" default="3.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <Insert type="ladspa" unique-id="1423" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="Plate reverb" id="3319" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3320"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="0" value="+4.255000"/>
-            <controllable name="Reverb time" id="3447"/>
-            <port number="1" value="+0.250000"/>
-            <controllable name="Damping" id="3448"/>
-            <port number="2" value="+0.378866"/>
-            <controllable name="Dry/wet mix" id="3449"/>
-          </ladspa>
-          <controls>
-            <controllable name="Reverb time" id="3447" parameter="0"/>
-            <controllable name="Damping" id="3448" parameter="1"/>
-            <controllable name="Dry/wet mix" id="3449" parameter="2"/>
-          </controls>
-          <PortAutomation>
-            <port number="0">
-              <AutomationList id="3346" default="4.25500011444" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="1">
-              <AutomationList id="3347" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3348" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <extra>
-          <GUI color="7077:38551:29369" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-      </Route>
-      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10">
-        <IO name="Bus 3" id="3262" active="yes" inputs="{AnnThisMor/out 3}" outputs="{master/in 1}{master/in 2}" gain="0.675517797470" iolimits="-1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="no">
-            <Output x="0" y="0"/>
-            <Output x="1" y="0"/>
-            <StreamPanner x="0.123780488968" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3325" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3324"/>
-            </StreamPanner>
-            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
-              <Automation>
-                <AutomationList id="3328" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
-              </Automation>
-              <controllable name="panner" id="3327"/>
-            </StreamPanner>
-          </Panner>
-          <controllable name="gaincontrol" id="3263"/>
-          <Automation>
-            <AutomationList id="3264" default="0.67551779747" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3266"/>
-        <controllable name="mute" id="3267"/>
-        <remote_control id="11"/>
-        <Insert type="ladspa" unique-id="1772" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="C* Compress - Mono compressor" id="3314" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3315"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="1" value="+6.000000"/>
-            <port number="2" value="+1.000000"/>
-            <port number="3" value="+0.001000"/>
-            <port number="4" value="+0.500500"/>
-            <port number="5" value="+0.000000"/>
-            <port number="6" value="+3.250000"/>
-          </ladspa>
-          <controls/>
-          <PortAutomation>
-            <port number="1">
-              <AutomationList id="3340" default="6" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3341" default="1" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="3">
-              <AutomationList id="3342" default="0.0010000000475" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="4">
-              <AutomationList id="3343" default="0.500500023365" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="5">
-              <AutomationList id="3344" default="0" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="6">
-              <AutomationList id="3345" default="3.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <Insert type="ladspa" unique-id="1423" count="1">
-          <Redirect active="yes" placement="PostFader">
-            <IO name="Plate reverb" id="3319" active="yes" inputs="" outputs="" gain="1.000000000000" iolimits="-1,-1,-1,-1">
-              <Panner linked="no" link_direction="SameDirection" bypassed="no"/>
-              <controllable name="gaincontrol" id="3320"/>
-              <Automation>
-                <Automation/>
-              </Automation>
-            </IO>
-            <Automation visible=""/>
-          </Redirect>
-          <ladspa>
-            <port number="0" value="+4.255000"/>
-            <controllable name="Reverb time" id="3447"/>
-            <port number="1" value="+0.250000"/>
-            <controllable name="Damping" id="3448"/>
-            <port number="2" value="+0.378866"/>
-            <controllable name="Dry/wet mix" id="3449"/>
-          </ladspa>
-          <controls>
-            <controllable name="Reverb time" id="3447" parameter="0"/>
-            <controllable name="Damping" id="3448" parameter="1"/>
-            <controllable name="Dry/wet mix" id="3449" parameter="2"/>
-          </controls>
-          <PortAutomation>
-            <port number="0">
-              <AutomationList id="3346" default="4.25500011444" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="1">
-              <AutomationList id="3347" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-            <port number="2">
-              <AutomationList id="3348" default="0.25" min_yval="1.17549435082e-38" max_yval="3.40282346639e+38" max_xval="0" state="Off" style="Absolute"/>
-            </port>
-          </PortAutomation>
-        </Insert>
-        <extra>
-          <GUI color="7077:38551:29369" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-      </Route>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354859441" tv_usec="140317558167039" name="mute change">
-    <MementoCommand obj_id="3195" type_name="N6ARDOUR10AudioTrackE">
-      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
-        <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
-            <Output x="0.5" y="0"/>
-            <Output x="0" y="1"/>
-            <Output x="1" y="1"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-          </Panner>
-          <controllable name="gaincontrol" id="3196"/>
-          <Automation>
-            <AutomationList id="3197" default="0.985882937908" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3199"/>
-        <controllable name="mute" id="3200"/>
-        <remote_control id="13"/>
-        <extra>
-          <GUI color="25746:6747:37301" strip_width="Wide" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-        <alignment style="ExistingMaterial"/>
-        <controllable name="recenable" id="19430"/>
-      </Route>
-      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
-        <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
-            <Output x="0.5" y="0"/>
-            <Output x="0" y="1"/>
-            <Output x="1" y="1"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-          </Panner>
-          <controllable name="gaincontrol" id="3196"/>
-          <Automation>
-            <AutomationList id="3197" default="0.985882937908" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3199"/>
-        <controllable name="mute" id="3200"/>
-        <remote_control id="13"/>
-        <extra>
-          <GUI color="25746:6747:37301" strip_width="Wide" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-        <alignment style="ExistingMaterial"/>
-        <controllable name="recenable" id="19430"/>
-      </Route>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1354859450" tv_usec="140317558167039" name="mute change">
-    <MementoCommand obj_id="3195" type_name="N6ARDOUR10AudioTrackE">
-      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
-        <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
-            <Output x="0.5" y="0"/>
-            <Output x="0" y="1"/>
-            <Output x="1" y="1"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-          </Panner>
-          <controllable name="gaincontrol" id="3196"/>
-          <Automation>
-            <AutomationList id="3197" default="0.985882937908" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3199"/>
-        <controllable name="mute" id="3200"/>
-        <remote_control id="13"/>
-        <extra>
-          <GUI color="25746:6747:37301" strip_width="Wide" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-        <alignment style="ExistingMaterial"/>
-        <controllable name="recenable" id="19430"/>
-      </Route>
-      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3202">
-        <IO name="AnnThisMor" id="3195" active="yes" inputs="{system:capture_1}{system:capture_2}{}" outputs="{Bus 1/in 1}{Bus 2/in 1}{Bus 3/in 1}" gain="0.985882937908" iolimits="1,-1,-1,-1">
-          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
-            <Output x="0.5" y="0"/>
-            <Output x="0" y="1"/>
-            <Output x="1" y="1"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
-          </Panner>
-          <controllable name="gaincontrol" id="3196"/>
-          <Automation>
-            <AutomationList id="3197" default="0.985882937908" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
-          </Automation>
-        </IO>
-        <controllable name="solo" id="3199"/>
-        <controllable name="mute" id="3200"/>
-        <remote_control id="13"/>
-        <extra>
-          <GUI color="25746:6747:37301" strip_width="Wide" shown_mixer="yes" height="27" shown_editor="yes">
-            <gain shown="no" height="70"/>
-            <pan shown="no" height="70"/>
-          </GUI>
-        </extra>
-        <alignment style="ExistingMaterial"/>
-        <controllable name="recenable" id="19430"/>
-      </Route>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1357804148" tv_usec="140317558167039" name="move marker">
-    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="111751505" end="111751505" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1357804192" tv_usec="140317558167039" name="move marker">
-    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="111751505" end="111751505" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="111554984" end="111554984" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1357804211" tv_usec="140317558167039" name="move marker">
-    <MementoCommand obj_id="14" type_name="N6ARDOUR9LocationsE">
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="111554984" end="111554984" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-      <Locations>
-        <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
-        <Location id="16" name="end" start="111498835" end="111498835" flags="IsMark,IsEnd" locked="no"/>
-        <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no"/>
-        <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no"/>
-        <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="13327" name="mark2" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18160" name="mark3" start="0" end="0" flags="IsMark" locked="no"/>
-        <Location id="18659" name="mark4" start="41015523" end="41015523" flags="IsMark" locked="no"/>
-      </Locations>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv_sec="1357888128" tv_usec="163650" name="automation range drag">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1354859436" tv-usec="3909317424" name="mute change"/>
+  <UndoTransaction tv-sec="1354859438" tv-usec="3909317424" name="mute change"/>
+  <UndoTransaction tv-sec="1354859441" tv-usec="3909317424" name="mute change"/>
+  <UndoTransaction tv-sec="1354859450" tv-usec="3909317424" name="mute change"/>
+  <UndoTransaction tv-sec="1357804148" tv-usec="3909317424" name="move marker"/>
+  <UndoTransaction tv-sec="1357804192" tv-usec="3909317424" name="move marker"/>
+  <UndoTransaction tv-sec="1357804211" tv-usec="3909317424" name="move marker"/>
+  <UndoTransaction tv-sec="1357888128" tv-usec="3909317424" name="automation range drag">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -911,8 +240,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -944,9 +273,9 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888129" tv_usec="820148" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888129" tv-usec="3909317424" name="add gain automation event">
+    <MementoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -976,7 +305,7 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1009,9 +338,9 @@
       </AutomationList>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888132" tv_usec="367492" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888132" tv-usec="3909317424" name="automation event move">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1043,8 +372,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1077,9 +406,9 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888134" tv_usec="143012" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888134" tv-usec="3909317424" name="add gain automation event">
+    <MementoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1110,7 +439,7 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1144,9 +473,9 @@
       </AutomationList>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888137" tv_usec="765441" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888137" tv-usec="3909317424" name="add gain automation event">
+    <MementoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1178,7 +507,7 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1213,9 +542,9 @@
       </AutomationList>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888231" tv_usec="917953" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888231" tv-usec="3909317424" name="add gain automation event">
+    <MementoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1248,7 +577,7 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1284,9 +613,9 @@
       </AutomationList>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888236" tv_usec="779685" name="automation event move">
-    <MementoUndoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888236" tv-usec="3909317424" name="automation event move">
+    <MementoUndoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1321,8 +650,8 @@
 </events>
       </AutomationList>
     </MementoUndoCommand>
-    <MementoRedoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+    <MementoRedoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1358,9 +687,9 @@
       </AutomationList>
     </MementoRedoCommand>
   </UndoTransaction>
-  <UndoTransaction tv_sec="1357888238" tv_usec="252582" name="add gain automation event">
-    <MementoCommand obj_id="135" type_name="N6ARDOUR5CurveE">
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+  <UndoTransaction tv-sec="1357888238" tv-usec="3909317424" name="add gain automation event">
+    <MementoCommand obj-id="24167" type-name="AutomationLine">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
@@ -1394,7 +723,7 @@
 111678190 1.46518814563751
 </events>
       </AutomationList>
-      <AutomationList id="135" default="0.335153371096" min_yval="0" max_yval="2" max_xval="0" state="Play" style="Absolute">
+      <AutomationList id="135" default="0.335153371096" min-yval="0" max-yval="2" max-xval="0" state="Play" style="Absolute">
         <events>3314 0.915185332298279
 1259219 0.299604952335358
 6206697 0.218473970890045
