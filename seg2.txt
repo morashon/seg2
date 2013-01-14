@@ -258,10 +258,7 @@ _Thisone: Talk about ancient.
 {time=543}
 _Annai: If it's old enough, it's cool.  (disappears)
 
-Scene: Morashon's salon
-
-Only Annai is there.  She sits with her knees folded, almost in supplication.
-
+Scene: Morashon's salon.  Morashon is there with Annai.  She sits with her knees folded, almost in supplication.  
 Morashon's skin is blue.
 
 {time=550}
