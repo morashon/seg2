@@ -1126,7 +1126,7 @@ Love (half of me's in love)
 (repeat)
 
 {time=2505}
-I'm half in love!
+_I'm half in love!
 
-{time=2519}
+{time=2515}
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="seg2" sample-rate="44100" id-counter="41897" event-counter="0">
+<Session version="3001" name="seg2" sample-rate="44100" id-counter="46246" event-counter="0">
   <Config>
     <Option name="xfade-choice" value="ConstantPowerMinus3dB"/>
     <Option name="destructive-xfade-msecs" value="2"/>
@@ -7225,7 +7225,7 @@
     </Region>
   </Regions>
   <Locations>
-    <Location id="22543" name="session" start="0" end="111124986" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="22543" name="session" start="0" end="110911502" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no" position-lock-style="AudioTime"/>
     <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no" position-lock-style="AudioTime"/>
     <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -7239,31 +7239,31 @@
       <IO name="master" id="18" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="master/audio_in 1">
           <Connection other="morashon_theme2/audio_out 1"/>
-          <Connection other="Bus 3/audio_out 1"/>
-          <Connection other="Bus 2/audio_out 1"/>
-          <Connection other="Bus 1/audio_out 1"/>
           <Connection other="Thisone/audio_out 1"/>
           <Connection other="Annai/audio_out 1"/>
-          <Connection other="Bus 5/audio_out 1"/>
-          <Connection other="Bus 4/audio_out 1"/>
           <Connection other="Music2/audio_out 1"/>
           <Connection other="Music1/audio_out 1"/>
           <Connection other="Bus 7/audio_out 1"/>
+          <Connection other="Bus 2/audio_out 1"/>
           <Connection other="Bus 6/audio_out 1"/>
+          <Connection other="Bus 1/audio_out 1"/>
+          <Connection other="Bus 5/audio_out 1"/>
+          <Connection other="Bus 4/audio_out 1"/>
+          <Connection other="Bus 3/audio_out 1"/>
         </Port>
         <Port type="audio" name="master/audio_in 2">
           <Connection other="morashon_theme2/audio_out 2"/>
-          <Connection other="Bus 3/audio_out 2"/>
-          <Connection other="Bus 2/audio_out 2"/>
-          <Connection other="Bus 1/audio_out 2"/>
           <Connection other="Thisone/audio_out 2"/>
           <Connection other="Annai/audio_out 2"/>
-          <Connection other="Bus 5/audio_out 2"/>
-          <Connection other="Bus 4/audio_out 2"/>
           <Connection other="Music2/audio_out 2"/>
           <Connection other="Music1/audio_out 2"/>
           <Connection other="Bus 7/audio_out 2"/>
+          <Connection other="Bus 2/audio_out 2"/>
           <Connection other="Bus 6/audio_out 2"/>
+          <Connection other="Bus 1/audio_out 2"/>
+          <Connection other="Bus 5/audio_out 2"/>
+          <Connection other="Bus 4/audio_out 2"/>
+          <Connection other="Bus 3/audio_out 2"/>
         </Port>
       </IO>
       <IO name="master" id="18" direction="Output" default-type="audio" user-latency="0">
@@ -8177,7 +8177,7 @@
           <Port number="6" value="-26.159790"/>
         </ladspa>
         <Controllable name="Roomsize (m)" id="24073" flags="" value="75.750000000000" parameter="0"/>
-        <Controllable name="Reverb time (s)" id="24075" flags="" value="6.342009544373" parameter="1"/>
+        <Controllable name="Reverb time (s)" id="24075" flags="" value="6.342010021210" parameter="1"/>
         <Controllable name="Damping" id="24077" flags="" value="0.500000000000" parameter="2"/>
         <Controllable name="Input bandwidth" id="24079" flags="" value="0.750000000000" parameter="3"/>
         <Controllable name="Dry signal level (dB)" id="24081" flags="" value="-6.855669021606" parameter="4"/>
@@ -8210,7 +8210,7 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="24094" flags="" value="0.716216233937"/>
+        <Controllable name="pan-azimuth" id="24094" flags="" value="0.716216206551"/>
         <Controllable name="pan-width" id="24098" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="24096" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="24100" flags="" value="0.000000000000"/>
@@ -13714,6 +13714,19 @@
     <Protocol name="Mackie" active="no"/>
   </ControlProtocols>
   <Extra>
+    <RulerVisibility timecode="no" bbt="no" samples="no" minsec="yes" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="yes"/>
+    <ClockModes>
+      <Clock name="primary" mode="Timecode" on="yes"/>
+      <Clock name="secondary" mode="MinSec" on="yes"/>
+      <Clock name="bigclock" mode="Timecode" on="yes"/>
+      <Clock name="zoomrange" mode="Timecode" on="yes"/>
+      <Clock name="nudge" mode="Timecode" on="yes"/>
+      <Clock name="selection-start" mode="Timecode" on="no"/>
+      <Clock name="selection-end" mode="Timecode" on="no"/>
+      <Clock name="selection-length" mode="Timecode" on="no"/>
+      <Clock name="punch-start" mode="Timecode" on="yes"/>
+      <Clock name="punch-end" mode="Timecode" on="yes"/>
+    </ClockModes>
     <UI>
       <Window name="R-18-23516" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="R-18-23519" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13732,13 +13745,6 @@
       <Window name="M-7772-7969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-7772-23630" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-7772-23631" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23698" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-11197" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23702" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23729" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23732" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23733" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-719-23754" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-719-810" visible="no" x-off="1489" y-off="866" x-size="401" y-size="185"/>
       <Window name="M-719-23757" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13747,6 +13753,22 @@
       <Window name="M-768-823" visible="no" x-off="0" y-off="866" x-size="401" y-size="185"/>
       <Window name="M-768-23794" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-768-23795" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23972" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23973" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24000" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24003" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24004" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24033" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24036" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24037" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23698" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-11197" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23702" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23729" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23732" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23733" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-23828" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-3350" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-3355" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13762,17 +13784,8 @@
       <Window name="M-3262-3319" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3262-23925" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3262-23926" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23972" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23973" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24000" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24003" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24004" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24033" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24036" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24037" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24064" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18215-18244" visible="yes" x-off="4" y-off="58" x-size="448" y-size="289"/>
+      <Window name="M-18215-18244" visible="yes" x-off="6" y-off="114" x-size="448" y-size="289"/>
       <Window name="M-18215-24067" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24068" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18224-24105" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

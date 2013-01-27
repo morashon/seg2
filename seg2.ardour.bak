@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="seg2" sample-rate="44100" id-counter="41896" event-counter="0">
+<Session version="3001" name="seg2" sample-rate="44100" id-counter="46246" event-counter="0">
   <Config>
     <Option name="xfade-choice" value="ConstantPowerMinus3dB"/>
     <Option name="destructive-xfade-msecs" value="2"/>
@@ -7225,7 +7225,7 @@
     </Region>
   </Regions>
   <Locations>
-    <Location id="22543" name="session" start="0" end="111124986" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="22543" name="session" start="0" end="110911502" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
     <Location id="54" name="Loop" start="0" end="13230000" flags="IsAutoLoop,IsHidden" locked="no" position-lock-style="AudioTime"/>
     <Location id="55" name="Punch" start="0" end="13230000" flags="IsAutoPunch,IsHidden" locked="no" position-lock-style="AudioTime"/>
     <Location id="452" name="mark1" start="0" end="0" flags="IsMark" locked="no" position-lock-style="AudioTime"/>
@@ -7239,31 +7239,31 @@
       <IO name="master" id="18" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="master/audio_in 1">
           <Connection other="morashon_theme2/audio_out 1"/>
-          <Connection other="Bus 3/audio_out 1"/>
-          <Connection other="Bus 2/audio_out 1"/>
-          <Connection other="Bus 1/audio_out 1"/>
           <Connection other="Thisone/audio_out 1"/>
           <Connection other="Annai/audio_out 1"/>
-          <Connection other="Bus 5/audio_out 1"/>
-          <Connection other="Bus 4/audio_out 1"/>
           <Connection other="Music2/audio_out 1"/>
           <Connection other="Music1/audio_out 1"/>
           <Connection other="Bus 7/audio_out 1"/>
+          <Connection other="Bus 2/audio_out 1"/>
           <Connection other="Bus 6/audio_out 1"/>
+          <Connection other="Bus 1/audio_out 1"/>
+          <Connection other="Bus 5/audio_out 1"/>
+          <Connection other="Bus 4/audio_out 1"/>
+          <Connection other="Bus 3/audio_out 1"/>
         </Port>
         <Port type="audio" name="master/audio_in 2">
           <Connection other="morashon_theme2/audio_out 2"/>
-          <Connection other="Bus 3/audio_out 2"/>
-          <Connection other="Bus 2/audio_out 2"/>
-          <Connection other="Bus 1/audio_out 2"/>
           <Connection other="Thisone/audio_out 2"/>
           <Connection other="Annai/audio_out 2"/>
-          <Connection other="Bus 5/audio_out 2"/>
-          <Connection other="Bus 4/audio_out 2"/>
           <Connection other="Music2/audio_out 2"/>
           <Connection other="Music1/audio_out 2"/>
           <Connection other="Bus 7/audio_out 2"/>
+          <Connection other="Bus 2/audio_out 2"/>
           <Connection other="Bus 6/audio_out 2"/>
+          <Connection other="Bus 1/audio_out 2"/>
+          <Connection other="Bus 5/audio_out 2"/>
+          <Connection other="Bus 4/audio_out 2"/>
+          <Connection other="Bus 3/audio_out 2"/>
         </Port>
       </IO>
       <IO name="master" id="18" direction="Output" default-type="audio" user-latency="0">
@@ -7362,7 +7362,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="23543" flags="GainLike" value="0.915185332298"/>
+        <Controllable name="gaincontrol" id="23543" flags="GainLike" value="1.357588304594"/>
       </Processor>
       <Processor id="394" name="C* Plate2x2 - Versatile plate reverb, stereo inputs" active="yes" user-latency="0" type="ladspa" unique-id="1795" count="1">
         <Automation>
@@ -7382,12 +7382,12 @@
           <Port number="2" value="+0.502000"/>
           <Port number="3" value="+0.436273"/>
           <Port number="4" value="+0.291592"/>
-          <Port number="5" value="+0.286082"/>
+          <Port number="5" value="+0.000000"/>
         </ladspa>
         <Controllable name="bandwidth" id="23552" flags="" value="0.501999974251" parameter="2"/>
         <Controllable name="tail" id="23554" flags="" value="0.436273008585" parameter="3"/>
         <Controllable name="damping" id="23556" flags="" value="0.291592001915" parameter="4"/>
-        <Controllable name="blend" id="23558" flags="" value="0.286082476377" parameter="5"/>
+        <Controllable name="blend" id="23558" flags="" value="0.000000000000" parameter="5"/>
       </Processor>
       <Processor id="23544" name="Meter" active="yes" user-latency="0" type="meter"/>
       <Processor id="23545" name="Music1" active="yes" user-latency="0" own-input="yes" own-output="no" output="Music1" type="main-outs" role="Main">
@@ -7451,7 +7451,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="23584" flags="GainLike" value="0.062168851495"/>
+        <Controllable name="gaincontrol" id="23584" flags="GainLike" value="0.000000000000"/>
       </Processor>
       <Processor id="7862" name="GLAME Butterworth Lowpass" active="yes" user-latency="0" type="ladspa" unique-id="1903" count="2">
         <Automation>
@@ -7463,10 +7463,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+19845.000000"/>
+          <Port number="0" value="+2467.379883"/>
           <Port number="1" value="+0.707731"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23593" flags="" value="19845.000000000000" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23593" flags="" value="2467.379882812500" parameter="0"/>
         <Controllable name="Resonance" id="23595" flags="" value="0.707731008530" parameter="1"/>
       </Processor>
       <Processor id="7872" name="GLAME Butterworth Highpass" active="yes" user-latency="0" type="ladspa" unique-id="1904" count="2">
@@ -7500,10 +7500,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+4.410000"/>
+          <Port number="0" value="+123.652100"/>
           <Port number="1" value="+0.755000"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23600" flags="" value="4.409999847412" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23600" flags="" value="123.652099609375" parameter="0"/>
         <Controllable name="Resonance" id="23602" flags="" value="0.754999995232" parameter="1"/>
       </Processor>
       <Processor id="23585" name="Meter" active="yes" user-latency="0" type="meter"/>
@@ -7598,7 +7598,230 @@
       <Controllable name="recenable" id="23633" flags="Toggle" value="0.000000000000"/>
       <Diskstream flags="Recordable" playlist="ThisoneAnnai" name="ThisoneAnnai" id="7779" speed="1.000000" capture-alignment="Automatic" channels="2"/>
     </Route>
-    <Route id="8440" name="Bus 4" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=4:MixerSort=4" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+    <Route id="719" name="Annai" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=4:MixerSort=4" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="Annai" id="719" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Annai/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="Annai" id="719" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Annai/audio_out 1">
+          <Connection other="master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Annai/audio_out 2">
+          <Connection other="master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="23737" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="23739" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="23743" flags="" value="0.401639342308"/>
+        <Controllable name="pan-width" id="23747" flags="" value="0.803278684616"/>
+        <Controllable name="pan-elevation" id="23745" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="23749" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="23751" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="23754" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="23756" flags="GainLike" value="0.790138185024"/>
+      </Processor>
+      <Processor id="810" name="Plate reverb" active="yes" user-latency="0" type="ladspa" unique-id="1423" count="1">
+        <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port number="0" value="+4.473814"/>
+          <Port number="1" value="+0.270619"/>
+          <Port number="2" value="+0.206186"/>
+        </ladspa>
+        <Controllable name="Reverb time" id="23765" flags="" value="4.473814010620" parameter="0"/>
+        <Controllable name="Damping" id="23767" flags="" value="0.270619004965" parameter="1"/>
+        <Controllable name="Dry/wet mix" id="23769" flags="" value="0.206185996532" parameter="2"/>
+      </Processor>
+      <Processor id="23757" name="Meter" active="yes" user-latency="0" type="meter"/>
+      <Processor id="23758" name="Annai" active="yes" user-latency="0" own-input="yes" own-output="no" output="Annai" type="main-outs" role="Main">
+        <PannerShell bypassed="no">
+          <Panner type="Equal Power Stereo"/>
+        </PannerShell>
+      </Processor>
+      <Controllable name="recenable" id="23760" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="Annai" name="Annai" id="726" speed="1.000000" capture-alignment="Automatic" channels="1"/>
+    </Route>
+    <Route id="768" name="Thisone" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=5:MixerSort=5" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="Thisone" id="768" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Thisone/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+      </IO>
+      <IO name="Thisone" id="768" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Thisone/audio_out 1">
+          <Connection other="master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Thisone/audio_out 2">
+          <Connection other="master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="23774" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="23776" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="23780" flags="" value="0.565573751926"/>
+        <Controllable name="pan-width" id="23784" flags="" value="0.868852436543"/>
+        <Controllable name="pan-elevation" id="23782" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="23786" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="23788" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="23791" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="23793" flags="GainLike" value="1.007110238075"/>
+      </Processor>
+      <Processor id="823" name="Plate reverb" active="yes" user-latency="0" type="ladspa" unique-id="1423" count="1">
+        <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
+          <Port number="0" value="+4.736390"/>
+          <Port number="1" value="+0.229381"/>
+          <Port number="2" value="+0.193299"/>
+        </ladspa>
+        <Controllable name="Reverb time" id="23802" flags="" value="4.736390113831" parameter="0"/>
+        <Controllable name="Damping" id="23804" flags="" value="0.229380995035" parameter="1"/>
+        <Controllable name="Dry/wet mix" id="23806" flags="" value="0.193298995495" parameter="2"/>
+      </Processor>
+      <Processor id="23794" name="Meter" active="yes" user-latency="0" type="meter"/>
+      <Processor id="23795" name="Thisone" active="yes" user-latency="0" own-input="yes" own-output="no" output="Thisone" type="main-outs" role="Main">
+        <PannerShell bypassed="no">
+          <Panner type="Equal Power Stereo"/>
+        </PannerShell>
+      </Processor>
+      <Controllable name="recenable" id="23797" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="Thisone" name="Thisone" id="775" speed="1.000000" capture-alignment="Automatic" channels="1"/>
+    </Route>
+    <Route id="16823" name="morashon_theme2" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=6:MixerSort=6" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="morashon_theme2" id="16823" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="morashon_theme2/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+        <Port type="audio" name="morashon_theme2/audio_in 2">
+          <Connection other="system:capture_1"/>
+        </Port>
+      </IO>
+      <IO name="morashon_theme2" id="16823" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="morashon_theme2/audio_out 1">
+          <Connection other="master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="morashon_theme2/audio_out 2">
+          <Connection other="master/audio_in 2"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="23952" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="23954" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="23958" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="23962" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="23960" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="23964" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="23966" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="23969" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="23971" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="23972" name="Meter" active="yes" user-latency="0" type="meter"/>
+      <Processor id="23973" name="morashon_theme2" active="yes" user-latency="0" own-input="yes" own-output="no" output="morashon_theme2" type="main-outs" role="Main">
+        <PannerShell bypassed="no">
+          <Panner type="Equal Power Stereo"/>
+        </PannerShell>
+      </Processor>
+      <Controllable name="recenable" id="23975" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="morashon_theme2" name="morashon_theme2" id="16830" speed="1.000000" capture-alignment="Automatic" channels="2"/>
+    </Route>
+    <Route id="3195" name="AnnThisMor" default-type="audio" active="yes" phase-invert="000" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=7:MixerSort=7" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="AnnThisMor" id="3195" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="AnnThisMor/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+        <Port type="audio" name="AnnThisMor/audio_in 2">
+          <Connection other="system:capture_2"/>
+        </Port>
+        <Port type="audio" name="AnnThisMor/audio_in 3"/>
+      </IO>
+      <IO name="AnnThisMor" id="3195" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="AnnThisMor/audio_out 1">
+          <Connection other="Bus 1/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="AnnThisMor/audio_out 2">
+          <Connection other="Bus 2/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="AnnThisMor/audio_out 3">
+          <Connection other="Bus 3/audio_in 1"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="23983" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="23985" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="23989" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="23993" flags="" value="0.000000000000"/>
+        <Controllable name="pan-elevation" id="23991" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="23995" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="23997" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="24000" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="24002" flags="GainLike" value="0.985882937908"/>
+      </Processor>
+      <Processor id="24003" name="Meter" active="yes" user-latency="0" type="meter"/>
+      <Processor id="24004" name="AnnThisMor" active="yes" user-latency="0" own-input="yes" own-output="no" output="AnnThisMor" type="main-outs" role="Main">
+        <PannerShell bypassed="yes">
+          <Panner type="VBAP 2D panner"/>
+        </PannerShell>
+      </Processor>
+      <Controllable name="recenable" id="24006" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="AnnThisMor" name="AnnThisMor" id="3202" speed="1.000000" capture-alignment="Automatic" channels="3"/>
+    </Route>
+    <Route id="18172" name="morashon_theme3" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=8:MixerSort=8" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
+      <IO name="morashon_theme3" id="18172" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="morashon_theme3/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+        <Port type="audio" name="morashon_theme3/audio_in 2">
+          <Connection other="system:capture_1"/>
+        </Port>
+      </IO>
+      <IO name="morashon_theme3" id="18172" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="morashon_theme3/audio_out 1">
+          <Connection other="Bus 6/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="morashon_theme3/audio_out 2">
+          <Connection other="Bus 7/audio_in 1"/>
+        </Port>
+      </IO>
+      <Controllable name="solo" id="24016" flags="Toggle" value="0.000000000000"/>
+      <Controllable name="mute" id="24018" flags="Toggle" value="0.000000000000"/>
+      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
+      <RemoteControl id="0"/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="24022" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="24026" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="24024" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="24028" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="24030" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="24033" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="24035" flags="GainLike" value="0.592384696007"/>
+      </Processor>
+      <Processor id="24036" name="Meter" active="yes" user-latency="0" type="meter"/>
+      <Processor id="24037" name="morashon_theme3" active="yes" user-latency="0" own-input="yes" own-output="no" output="morashon_theme3" type="main-outs" role="Main">
+        <PannerShell bypassed="yes">
+          <Panner type="Equal Power Stereo"/>
+        </PannerShell>
+      </Processor>
+      <Controllable name="recenable" id="24039" flags="Toggle" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="morashon_theme3" name="morashon_theme3" id="18179" speed="1.000000" capture-alignment="Automatic" channels="2"/>
+    </Route>
+    <Route id="8440" name="Bus 4" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=9:MixerSort=9" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Bus 4" id="8440" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Bus 4/audio_in 1">
           <Connection other="ThisoneAnnai/audio_out 1"/>
@@ -7679,10 +7902,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+36.119495"/>
+          <Port number="0" value="+4.410000"/>
           <Port number="1" value="+0.755000"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23707" flags="" value="36.119495391846" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23707" flags="" value="4.409999847412" parameter="0"/>
         <Controllable name="Resonance" id="23709" flags="" value="0.754999995232" parameter="1"/>
       </Processor>
       <Processor id="23701" name="Meter" active="yes" user-latency="0" type="meter"/>
@@ -7692,7 +7915,7 @@
         </PannerShell>
       </Processor>
     </Route>
-    <Route id="8449" name="Bus 5" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=5:MixerSort=5" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
+    <Route id="8449" name="Bus 5" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=10:MixerSort=10" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Bus 5" id="8449" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Bus 5/audio_in 1">
           <Connection other="ThisoneAnnai/audio_out 2"/>
@@ -7727,229 +7950,6 @@
           <Panner type="Mono to Stereo Panner"/>
         </PannerShell>
       </Processor>
-    </Route>
-    <Route id="719" name="Annai" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=6:MixerSort=6" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="Annai" id="719" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Annai/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
-      </IO>
-      <IO name="Annai" id="719" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Annai/audio_out 1">
-          <Connection other="master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Annai/audio_out 2">
-          <Connection other="master/audio_in 2"/>
-        </Port>
-      </IO>
-      <Controllable name="solo" id="23737" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="23739" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
-      <RemoteControl id="0"/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="23743" flags="" value="0.401639342308"/>
-        <Controllable name="pan-width" id="23747" flags="" value="0.803278684616"/>
-        <Controllable name="pan-elevation" id="23745" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="23749" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="23751" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="23754" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="23756" flags="GainLike" value="0.790138185024"/>
-      </Processor>
-      <Processor id="810" name="Plate reverb" active="yes" user-latency="0" type="ladspa" unique-id="1423" count="1">
-        <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+4.473814"/>
-          <Port number="1" value="+0.270619"/>
-          <Port number="2" value="+0.206186"/>
-        </ladspa>
-        <Controllable name="Reverb time" id="23765" flags="" value="4.473814010620" parameter="0"/>
-        <Controllable name="Damping" id="23767" flags="" value="0.270619004965" parameter="1"/>
-        <Controllable name="Dry/wet mix" id="23769" flags="" value="0.206185996532" parameter="2"/>
-      </Processor>
-      <Processor id="23757" name="Meter" active="yes" user-latency="0" type="meter"/>
-      <Processor id="23758" name="Annai" active="yes" user-latency="0" own-input="yes" own-output="no" output="Annai" type="main-outs" role="Main">
-        <PannerShell bypassed="no">
-          <Panner type="Equal Power Stereo"/>
-        </PannerShell>
-      </Processor>
-      <Controllable name="recenable" id="23760" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="Annai" name="Annai" id="726" speed="1.000000" capture-alignment="Automatic" channels="1"/>
-    </Route>
-    <Route id="768" name="Thisone" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=7:MixerSort=7" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="Thisone" id="768" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="Thisone/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-      </IO>
-      <IO name="Thisone" id="768" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="Thisone/audio_out 1">
-          <Connection other="master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="Thisone/audio_out 2">
-          <Connection other="master/audio_in 2"/>
-        </Port>
-      </IO>
-      <Controllable name="solo" id="23774" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="23776" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
-      <RemoteControl id="0"/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="23780" flags="" value="0.565573751926"/>
-        <Controllable name="pan-width" id="23784" flags="" value="0.868852436543"/>
-        <Controllable name="pan-elevation" id="23782" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="23786" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="23788" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="23791" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="23793" flags="GainLike" value="1.007110238075"/>
-      </Processor>
-      <Processor id="823" name="Plate reverb" active="yes" user-latency="0" type="ladspa" unique-id="1423" count="1">
-        <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+4.736390"/>
-          <Port number="1" value="+0.229381"/>
-          <Port number="2" value="+0.193299"/>
-        </ladspa>
-        <Controllable name="Reverb time" id="23802" flags="" value="4.736390113831" parameter="0"/>
-        <Controllable name="Damping" id="23804" flags="" value="0.229380995035" parameter="1"/>
-        <Controllable name="Dry/wet mix" id="23806" flags="" value="0.193298995495" parameter="2"/>
-      </Processor>
-      <Processor id="23794" name="Meter" active="yes" user-latency="0" type="meter"/>
-      <Processor id="23795" name="Thisone" active="yes" user-latency="0" own-input="yes" own-output="no" output="Thisone" type="main-outs" role="Main">
-        <PannerShell bypassed="no">
-          <Panner type="Equal Power Stereo"/>
-        </PannerShell>
-      </Processor>
-      <Controllable name="recenable" id="23797" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="Thisone" name="Thisone" id="775" speed="1.000000" capture-alignment="Automatic" channels="1"/>
-    </Route>
-    <Route id="16823" name="morashon_theme2" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=8:MixerSort=8" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="morashon_theme2" id="16823" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="morashon_theme2/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
-        <Port type="audio" name="morashon_theme2/audio_in 2">
-          <Connection other="system:capture_1"/>
-        </Port>
-      </IO>
-      <IO name="morashon_theme2" id="16823" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="morashon_theme2/audio_out 1">
-          <Connection other="master/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="morashon_theme2/audio_out 2">
-          <Connection other="master/audio_in 2"/>
-        </Port>
-      </IO>
-      <Controllable name="solo" id="23952" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="23954" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
-      <RemoteControl id="0"/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="23958" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="23962" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="23960" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="23964" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="23966" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="23969" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="23971" flags="GainLike" value="1.000000000000"/>
-      </Processor>
-      <Processor id="23972" name="Meter" active="yes" user-latency="0" type="meter"/>
-      <Processor id="23973" name="morashon_theme2" active="yes" user-latency="0" own-input="yes" own-output="no" output="morashon_theme2" type="main-outs" role="Main">
-        <PannerShell bypassed="no">
-          <Panner type="Equal Power Stereo"/>
-        </PannerShell>
-      </Processor>
-      <Controllable name="recenable" id="23975" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="morashon_theme2" name="morashon_theme2" id="16830" speed="1.000000" capture-alignment="Automatic" channels="2"/>
-    </Route>
-    <Route id="3195" name="AnnThisMor" default-type="audio" active="yes" phase-invert="000" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=9:MixerSort=9" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="AnnThisMor" id="3195" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="AnnThisMor/audio_in 1">
-          <Connection other="system:capture_1"/>
-        </Port>
-        <Port type="audio" name="AnnThisMor/audio_in 2">
-          <Connection other="system:capture_2"/>
-        </Port>
-        <Port type="audio" name="AnnThisMor/audio_in 3"/>
-      </IO>
-      <IO name="AnnThisMor" id="3195" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="AnnThisMor/audio_out 1">
-          <Connection other="Bus 1/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="AnnThisMor/audio_out 2">
-          <Connection other="Bus 2/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="AnnThisMor/audio_out 3">
-          <Connection other="Bus 3/audio_in 1"/>
-        </Port>
-      </IO>
-      <Controllable name="solo" id="23983" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="23985" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
-      <RemoteControl id="0"/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="23989" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="23993" flags="" value="0.000000000000"/>
-        <Controllable name="pan-elevation" id="23991" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="23995" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="23997" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="24000" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="24002" flags="GainLike" value="0.985882937908"/>
-      </Processor>
-      <Processor id="24003" name="Meter" active="yes" user-latency="0" type="meter"/>
-      <Processor id="24004" name="AnnThisMor" active="yes" user-latency="0" own-input="yes" own-output="no" output="AnnThisMor" type="main-outs" role="Main">
-        <PannerShell bypassed="yes">
-          <Panner type="VBAP 2D panner"/>
-        </PannerShell>
-      </Processor>
-      <Controllable name="recenable" id="24006" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="AnnThisMor" name="AnnThisMor" id="3202" speed="1.000000" capture-alignment="Automatic" channels="3"/>
-    </Route>
-    <Route id="18172" name="morashon_theme3" default-type="audio" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=10:MixerSort=10" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no" monitoring="" saved-meter-point="MeterPostFader" mode="Normal">
-      <IO name="morashon_theme3" id="18172" direction="Input" default-type="audio" user-latency="0">
-        <Port type="audio" name="morashon_theme3/audio_in 1">
-          <Connection other="system:capture_2"/>
-        </Port>
-        <Port type="audio" name="morashon_theme3/audio_in 2">
-          <Connection other="system:capture_1"/>
-        </Port>
-      </IO>
-      <IO name="morashon_theme3" id="18172" direction="Output" default-type="audio" user-latency="0">
-        <Port type="audio" name="morashon_theme3/audio_out 1">
-          <Connection other="Bus 6/audio_in 1"/>
-        </Port>
-        <Port type="audio" name="morashon_theme3/audio_out 2">
-          <Connection other="Bus 7/audio_in 1"/>
-        </Port>
-      </IO>
-      <Controllable name="solo" id="24016" flags="Toggle" value="0.000000000000"/>
-      <Controllable name="mute" id="24018" flags="Toggle" value="0.000000000000"/>
-      <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
-      <RemoteControl id="0"/>
-      <Pannable>
-        <Controllable name="pan-azimuth" id="24022" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="24026" flags="" value="1.000000000000"/>
-        <Controllable name="pan-elevation" id="24024" flags="" value="0.000000000000"/>
-        <Controllable name="pan-frontback" id="24028" flags="" value="0.000000000000"/>
-        <Controllable name="pan-lfe" id="24030" flags="" value="0.000000000000"/>
-        <Automation/>
-      </Pannable>
-      <Processor id="24033" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="24035" flags="GainLike" value="0.592384696007"/>
-      </Processor>
-      <Processor id="24036" name="Meter" active="yes" user-latency="0" type="meter"/>
-      <Processor id="24037" name="morashon_theme3" active="yes" user-latency="0" own-input="yes" own-output="no" output="morashon_theme3" type="main-outs" role="Main">
-        <PannerShell bypassed="yes">
-          <Panner type="Equal Power Stereo"/>
-        </PannerShell>
-      </Processor>
-      <Controllable name="recenable" id="24039" flags="Toggle" value="0.000000000000"/>
-      <Diskstream flags="Recordable" playlist="morashon_theme3" name="morashon_theme3" id="18179" speed="1.000000" capture-alignment="Automatic" channels="2"/>
     </Route>
     <Route id="3244" name="Bus 1" default-type="audio" active="yes" phase-invert="0" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=11:MixerSort=11" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="Bus 1" id="3244" direction="Input" default-type="audio" user-latency="0">
@@ -8177,7 +8177,7 @@
           <Port number="6" value="-26.159790"/>
         </ladspa>
         <Controllable name="Roomsize (m)" id="24073" flags="" value="75.750000000000" parameter="0"/>
-        <Controllable name="Reverb time (s)" id="24075" flags="" value="6.342009544373" parameter="1"/>
+        <Controllable name="Reverb time (s)" id="24075" flags="" value="6.342010021210" parameter="1"/>
         <Controllable name="Damping" id="24077" flags="" value="0.500000000000" parameter="2"/>
         <Controllable name="Input bandwidth" id="24079" flags="" value="0.750000000000" parameter="3"/>
         <Controllable name="Dry signal level (dB)" id="24081" flags="" value="-6.855669021606" parameter="4"/>
@@ -8210,7 +8210,7 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="24094" flags="" value="0.716216233937"/>
+        <Controllable name="pan-azimuth" id="24094" flags="" value="0.716216206551"/>
         <Controllable name="pan-width" id="24098" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="24096" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="24100" flags="" value="0.000000000000"/>
@@ -13714,6 +13714,19 @@
     <Protocol name="Mackie" active="no"/>
   </ControlProtocols>
   <Extra>
+    <RulerVisibility timecode="no" bbt="no" samples="no" minsec="yes" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="yes"/>
+    <ClockModes>
+      <Clock name="primary" mode="Timecode" on="yes"/>
+      <Clock name="secondary" mode="MinSec" on="yes"/>
+      <Clock name="bigclock" mode="Timecode" on="yes"/>
+      <Clock name="zoomrange" mode="Timecode" on="yes"/>
+      <Clock name="nudge" mode="Timecode" on="yes"/>
+      <Clock name="selection-start" mode="Timecode" on="no"/>
+      <Clock name="selection-end" mode="Timecode" on="no"/>
+      <Clock name="selection-length" mode="Timecode" on="no"/>
+      <Clock name="punch-start" mode="Timecode" on="yes"/>
+      <Clock name="punch-end" mode="Timecode" on="yes"/>
+    </ClockModes>
     <UI>
       <Window name="R-18-23516" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="R-18-23519" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13732,13 +13745,6 @@
       <Window name="M-7772-7969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-7772-23630" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-7772-23631" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23698" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-11197" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8440-23702" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23729" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23732" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-8449-23733" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-719-23754" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-719-810" visible="no" x-off="1489" y-off="866" x-size="401" y-size="185"/>
       <Window name="M-719-23757" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13747,6 +13753,22 @@
       <Window name="M-768-823" visible="no" x-off="0" y-off="866" x-size="401" y-size="185"/>
       <Window name="M-768-23794" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-768-23795" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23972" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-16823-23973" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24000" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24003" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-3195-24004" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24033" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24036" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-18172-24037" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23698" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-11197" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8440-23702" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23729" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23732" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="M-8449-23733" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-23828" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-3350" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3244-3355" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13762,17 +13784,8 @@
       <Window name="M-3262-3319" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3262-23925" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3262-23926" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23969" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23972" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-16823-23973" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24000" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24003" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-3195-24004" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24033" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24036" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18172-24037" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24064" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18215-18244" visible="yes" x-off="4" y-off="58" x-size="448" y-size="289"/>
+      <Window name="M-18215-18244" visible="yes" x-off="6" y-off="114" x-size="448" y-size="289"/>
       <Window name="M-18215-24067" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24068" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18224-24105" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -13795,7 +13808,7 @@
         <Object id="automation 23534" height="72" visible="0"/>
         <Object id="route 1603" color="28545:41367:34814"/>
         <Object id="rtav 1603" height="72" visible="1"/>
-        <Object id="automation 23584" height="72" visible="1"/>
+        <Object id="automation 23584" height="72" visible="0"/>
         <Object id="automation 23593" height="169" visible="0"/>
         <Object id="automation 23600" height="186" visible="0"/>
         <Object id="automation 23571" height="72" visible="0"/>
