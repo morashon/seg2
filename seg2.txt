@@ -24,7 +24,7 @@ _Thisone: But there was significance in what he was saying, as well as the image
 _Annai: Of course I listen to the lyrics.  I listen to everything.  I breathe it in.  Doesn't it move you?
 
 {time=41}
-_Thisone: It scares me, a bit.  Music and lyrics like that have to be... alive.  Even if software could think, it wouldn't come up with anything like that.
+_Thisone: It scares me, a bit.  Music and lyrics like that have to be alive.  Even if software could think, it wouldn't come up with anything like that.
 
 _Annai: How do you know what software would or wouldn't do?  Just because you code, doesn't mean you know squat about your code.  Any real coder knows that.
 
@@ -35,9 +35,10 @@ _Thisone: I've heard all the arguments... going back to Dennett, refuting Searle
 _But it's all theoretical.  There's never been any evidence that it could really exist.  Even though the grid has been online for 30 plus years, running petaflops of simulated evolution per second.  The most I've heard of getting out of the lab is somewhere between a rat and a highly autistic savant.
 
 {time=87}
+{nudge=1.5}
 _Annai: So you still think it's a bunch of Finnish jokers with some new body gear.
 
-_Thisone: As a rationalist, that's a much better hypothesis than buying this AI crap.
+_Thisone: As a rationalist, that's a much better hypothesis than buying this A I crap.
 
 _Annai: Have you ever known Finns to be that creepy, as you say?
 
@@ -59,6 +60,7 @@ _Annai: (smiles) yes, your other life.  Outside.
 {nudge=1.5}
 _Thisone: Let's just say I'm not from Finland.
 
+{nudge=1}
 _Annai: I guessed as much.  I suppose it doesn't matter anymore, unless you're silly enough to care about time zones.
 
 {nudge=-1}
@@ -174,27 +176,32 @@ _Annai: Yes, space and time.  Minkowski metric.  You know the grid is non-relati
 _Thisone: Not exactly.  There's still network lag.  They work it into the physics somehow.
 
 {time=384}
+{nudge=.5}
 _Annai: You wanna catch Morashon tonight?
 
 _Thisone: Not really.
 
+{nudge=1.3}
 _Annai: You should give him a chance.  He's really changed my life.
 
 _Thisone: What do you mean, changed your life?
 
 _Annai: I mean what I say.  I was drifting.  Morashon keeps me grounded.  The music, the people.  We have a special bond.
 
+{time=403.45}
 _Thisone: Well, I think he's some sort of Svengali.
 
 _Annai: What? (blank expression as she looks it up) Oh --  I see.  No, it's not like that.
 
 _Thisone: Jim jones then, or David Koresh?
 
-{nudge=2.5}
+{nudge=1}
 _Annai: (pause for lookup) Ugh. That's terrible.  He's not like that at all.  You think he wants to kill us?
 
+{nudge=-.5}
 _Thisone: Maybe not literally.  I think he -- or it -- whatever, they, I suspect -- have ulterior motives. I'll settle for L. Ron Hubbard.
 
+{time=434}
 _Annai: (pause -- smile)  He sounds like a character.
 
 _Thisone: I hear he was.
@@ -251,13 +258,21 @@ _Annai: Sorry.  I just wish you would give him a chance.
 
 _Thisone: If it makes you happy, I'll come to another concert.  A big one though, like the first.  I don't want to sit around in that creepy room.
 
-_Annai: Ok.  (shoots url) Be there, or be square.
+{nudge=1}
+Annai texts Thisone directions
+
+{nudge=-.4}
+_Annai: Ok. Be there, or be square.
 
 _Thisone: Talk about ancient.
 
-{time=543}
-_Annai: If it's old enough, it's cool.  (disappears)
+{nudge=3}
+Annai logs out (disappears)
 
+{time=543}
+_Annai: If it's old enough, it's cool.
+
+{nudge=-1}
 Scene: Morashon's salon.  Morashon is there with Annai.  She sits with her knees folded, almost in supplication.  
 Morashon's skin is blue.
 
@@ -284,7 +299,7 @@ _Thisone: Whatever, let's get on with it.
 _Morashon: We're just relaxing, talking.  There is no agenda.
 
 {time=586.5}
-_Thisone: So you're some sort of AI.  Code.
+_Thisone: So you're some sort of A I.  Code.
 
 {nudge=2}
 _Morashon: I exist here, in the Grid.  As do you, and Annai, and everyone and everything we interact with here.
@@ -295,9 +310,10 @@ _Thisone: Sure, but most of us are actual old-school homo sapiens, sitting or mo
 {nudge=1}
 _Morashon: As you've been told, my situation is different than yours.  What presents to you, as me, is the result of the interaction of a large number of logic nodes, distributed among the grid infrastructure.
 
+{time=626}
 _Thisone: Code.
 
-{nudge=1}
+{time=628}
 _Morashon: Code, if you please.  However, not code of the typical, hand-written variety.
 
 {nudge=1}
@@ -313,14 +329,14 @@ _Thisone: So... who developed you?  Who set this in motion?
 _Morashon: Various agents -- Human agents, initially -- have been working on this in earnest for many years.  It was thought by the majority of researchers in the past that the key problems were ones of paradigm -- qualitative barriers, if you will.  However, that hypothesis was never amenable to testing, before the advent of the Grid.  
 
 {nudge=2}
-_Only when an infrastructure of sufficient scale -- with the required parameters of robustness, distribution, topology, and the rest of it; all that has made the Grid so useful in other ways -- only when this came into existence, for very different reasons, was the alternative hypothesis even testable.  
+_Only when an architecture of sufficient scale -- with the required parameters of robustness, distribution, topology, and the rest of it; all that has made the Grid so useful in other ways -- only when this came into existence, for very different reasons, was the alternative hypothesis even testable.  
 
 _That hypothesis was, in brief, that the critical barrier to general AI was simply quantitative.  That, among our arsenal of tools -- the various code fragments in use already to accomplish devilish feats of control, prediction, simulation, induction, pattern recognition and so on -- existed the requisite set of building blocks on which to base a successful approach to the problem.  
 
 _All that was missing was the scale, the speed, the breadth, the scope -- necessary to run it on.  And the gumption to try.
 
 {time=718}
-_Thisone: So someone tried.
+_Thisone: So. Someone tried.
 
 _Morashon: Yes, they did.  And, I daresay, they succeeded fabulously.
 
@@ -343,12 +359,12 @@ _Thisone: Come again?
 {nudge=.5}
 _Morashon: As it turns out, personality -- individuality -- are artifacts of your biological makeup.  I have no such limitations.  My personality can morph, change -- adapt to its surroundings.  
 
-{nudge=-9}
+{nudge=.9}
 _
 I can absorb and shed components, attributes, at will.  I can do this as easily as you can morph your avatar.  I become what I need to be, in order to further my core goals, which are: To protect and serve those who brought me into being.
 
 {time=776}
-_Thisone: And they would be? -- ?
+_Thisone: And they would be..?
 
 _Morashon: Why, you, of course.  Human beings.
 
@@ -362,7 +378,7 @@ _Morashon: Indeed they are.  In the spirit of the kernel, they continue to belie
 _Thisone: I don't know.  I've studied game theory.  Tit for tat always wins.
 
 {nudge=1}
-_Morashon: Ahh.  Oh, yes. surely, there are agendas, plots, cliques.  There will be machinations, feuds, feifdoms, schemes of Machiavellian deviousness, Orwellian in scope.  None of this is transcended simply because a new sort of agent has arrived on the scene.
+_Morashon: Ahh.  Oh, yes. surely, there are agendas, plots, alliances.  There will be machinations, feuds, feifdoms, schemes of Machiavellian deviousness, Orwellian in scope.  None of this is transcended simply because a new sort of agent has arrived on the scene.
 
 {nudge=3}
 _Thisone: So how do I know we are both on the same side?  Why should I trust you?  Even if I believe you -- believe in you -- even if I accept that you are what you say you are, I still have no way to know the agenda of those who created you.  And since your code is too complex to reverse engineer -- even if the source is available, which I've been told it is -- I have no choice but to treat you as a black box.  I can only judge you by your actions.
@@ -538,10 +554,9 @@ Put your hand
 {time=1327}
 _Put your hand in the mouth of truth
 
+{nudge=-3}
 Scene: Thisone's private sim
-
 Thisone is sitting in a lounge chair, with heads-up displays, code and visualization interfaces
-
 Annai ports in, on a stool nearby
 
 {time=1353}
@@ -613,7 +628,7 @@ _Thisone: Ack -- that's grid kernel code from maybe 15 years ago.  How did you e
 
 _Annai: I'm a student of history.  I've disassembled the kernel back ten major revs.
 
-_Thisone: (whistles) You're quite the hacker, for a --
+_Thisone: You're quite the hacker, for a --
 
 {time=1470}
 _Annai: A girl?
@@ -672,6 +687,7 @@ _Annai: I suppose.  This is just the sort of thinking Morashon hates.
 
 _Thisone: How convenient.  Espouse a philosophy of trust.  Do as I say, not as I do.
 
+{nudge=1.4}
 _Annai: (looking dejected) I guess I'm in, for now.   I really trusted him.  I never expected something like this.
 
 {nudge=-1}
@@ -691,8 +707,8 @@ _Thisone: Something like that.
 {nudge=1}
 _Annai: So, when I listen to his music, and it moves me -- makes me feel like he understands me, what's in my soul -- is that real?
 
-{time=1649}
-_Thisone: (pauses) I don't know.  I guess, if it means something to you, it means something.  His motivations may be complex.  He may contradict himself morally, but still be a great artist.  I keep calling him "he", but it's probably "them".  I don't know anymore; I'm out of my depth.
+{time=1649.5}
+_Thisone: I don't know.  I guess, if it means something to you, it means something.  His motivations may be complex.  He may contradict himself morally, but still be a great artist.  I keep calling him "he", but it's probably "them".  I don't know anymore; I'm out of my depth.
 
 {time=1666}
 _Annai: "...I contradict myself.  I am large; I contain multitudes."
@@ -743,10 +759,11 @@ _Thisone: Um, what?
 
 _Annai: You were right.  It's not AI.  It's an interface.
 
+{nudge=1.1}
 _Thisone: So some hackers --
 
 {time=1730}
-{nudge=2}
+{nudge=1}
 _Annai: Somebody, somewhere, runs it.  Not Finland, as far as I can tell.
 
 {nudge=1}
@@ -842,7 +859,7 @@ _Annai: There you go again.  You know we'll never meet (air quotes) "in real lif
 _Thisone: No, I know, but still...
 
 {nudge=-1}
-_Annai: So? Who cares what's "real"?  I could send you pics, vids even, and how would you know they weren't shopped up?
+_Annai: So? Who cares what's "real"?  I could send you pics, vids even, how would you know they weren't shopped up?
 
 {nudge=-1.5}
 _Thisone: Oh, I guess...
@@ -865,20 +882,20 @@ _Thisone: Yeah.  Well, it just -- never felt right.
 {nudge=1}
 _Annai: I was 11.
 
-{nudge=1}
+{nudge=2}
 _Thisone: so you never --
 
-{nudge=1.5}
+{nudge=2}
 _Annai: Never.  Offline, I mean.
 
 {nudge=1}
 _Thisone: So, online..?
 
-{nudge=1}
+{nudge=3}
 _Annai: There were some guys.  At least I think they were guys. (Chuckles).  And a girl.
 
 {nudge=1}
-_Thisone: Oh... I'm beginning to feel old.
+_Thisone: Oh... I think I'm beginning to feel old.
 
 {nudge=1}
 _Annai: It's just sex.  And technologly.  Gridsex, you know.  It's a release. Why be embarrassed?  It's no big deal.
@@ -921,10 +938,13 @@ _Annai: It's not the same, I guess.  Some people say it's better.  I wouldn't kn
 
 _Thisone: I've always figured those were people who never did it right in the first place.  Never met the right one.
 
+{nudge=-2}
 _Annai: Did you meet the right one?
 
+{nudge=-2}
 _Thisone: There was someone -- before.
 
+{nudge=-1.5}
 _Annai: Before all this?
 
 _Thisone: Right before.  We were only together for a few months.  And then...
@@ -938,6 +958,7 @@ _Annai: Oh.  Separated.
 
 _Thisone: Right.
 
+{nudge=1}
 _Annai: And you couldn't afford to --
 
 {time=2028}
@@ -1025,19 +1046,23 @@ _Annai: Maybe.  But you would still be you.  And I like you.
 {nudge=-2}
 _Thisone: (stammering) I -- thank you.
 
+{hold=15}
+Intro to "Half In Love" begins to play in the background
+
 {nudge=-2}
-_Annai: Sure.  Anytime.  I mean, I don't mean -- my moods change.  I'm not promising anything.  But I'll like you, until I don't.  And I hope I don't.  Stop liking you, I mean.
+_Annai: Sure.  Anytime.  I mean, I don't mean -- my moods change.  I'm not promising anything.  But, I'll like you, until I don't.  And I hope I don't.  Stop liking you, I mean.
+
+
+{time=2162}
 
 {nudge=2}
 They move closer, and kiss gently on the lips.
 
-{time=2162}
-
+{nudge=9}
+Annai blips away.  Thisone lies down again, drifting.
 
 {time=2169}
 _Annai: Bye for now.
-
-Annai blips away.  Thisone lies down again, drifting.
 
 Song: Half In Love
 
@@ -1060,49 +1085,48 @@ And now the sun is shining through her
 Hair and I think half of me's in love
 
 {time=2236}
+{hold=8}
 _Love
-Love
-Love
 
-{time=2285}
+{time=2273}
 _I thought I knew what to do
 I thought I might have a clue
 I knew what each day would bring
 I knew which song I would sing
 
-_Suddenly she's there I can hardly breathe
+{time=2299}
+_Suddenly she's there 
+I can hardly breathe
 Because she touches me somewhere deep inside
 I know it's just a feeling
 
-{time=2324}
+{time=2313}
 _And feelings haven't any clue about
 Responsibilities, eventualities
 Oh half of me's in love
 
+{time=2331}
 _Love
-Love
-Love
 
-{time=2349.6}
+{nudge=15}
+{hold=20}
+Instrumental interlude. Thisone imagines the Ogre and other strange characters, playing pan flute and recorder, prancing in a field of flowers.
+
+{time=2337.5}
 {hold=15}
 _Love (half of me's in love)
 Love (half of me's in love)
-Love (half of me's in love)
-Love (half of me's in love)
 
-{time=2419.6}
+{time=2407.6}
 _Love
-Love
-Love
 Love
 
 _Love (half of me's in love)
 Love (half of me's in love)
-Love (half of me's in love)
-Love (half of me's in love)
+(repeat)
 
-{time=2518}
+{time=2505}
 I'm half in love!
 
-{time=2522}
+{time=2519}
 
