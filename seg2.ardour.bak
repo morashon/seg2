@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3001" name="seg2" sample-rate="44100" id-counter="46246" event-counter="0">
+<Session version="3001" name="seg2" sample-rate="44100" id-counter="48395" event-counter="0">
   <Config>
     <Option name="xfade-choice" value="ConstantPowerMinus3dB"/>
     <Option name="destructive-xfade-msecs" value="2"/>
@@ -7238,31 +7238,31 @@
     <Route id="18" name="master" default-type="audio" flags="MasterOut" active="yes" phase-invert="00" denormal-protection="no" meter-point="MeterPostFader" order-keys="EditorSort=0:MixerSort=0" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0" solo-isolated="no" solo-safe="no">
       <IO name="master" id="18" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="master/audio_in 1">
+          <Connection other="Bus 2/audio_out 1"/>
+          <Connection other="Bus 4/audio_out 1"/>
+          <Connection other="Bus 5/audio_out 1"/>
+          <Connection other="Bus 1/audio_out 1"/>
           <Connection other="morashon_theme2/audio_out 1"/>
           <Connection other="Thisone/audio_out 1"/>
           <Connection other="Annai/audio_out 1"/>
           <Connection other="Music2/audio_out 1"/>
           <Connection other="Music1/audio_out 1"/>
           <Connection other="Bus 7/audio_out 1"/>
-          <Connection other="Bus 2/audio_out 1"/>
           <Connection other="Bus 6/audio_out 1"/>
-          <Connection other="Bus 1/audio_out 1"/>
-          <Connection other="Bus 5/audio_out 1"/>
-          <Connection other="Bus 4/audio_out 1"/>
           <Connection other="Bus 3/audio_out 1"/>
         </Port>
         <Port type="audio" name="master/audio_in 2">
+          <Connection other="Bus 2/audio_out 2"/>
+          <Connection other="Bus 4/audio_out 2"/>
+          <Connection other="Bus 5/audio_out 2"/>
+          <Connection other="Bus 1/audio_out 2"/>
           <Connection other="morashon_theme2/audio_out 2"/>
           <Connection other="Thisone/audio_out 2"/>
           <Connection other="Annai/audio_out 2"/>
           <Connection other="Music2/audio_out 2"/>
           <Connection other="Music1/audio_out 2"/>
           <Connection other="Bus 7/audio_out 2"/>
-          <Connection other="Bus 2/audio_out 2"/>
           <Connection other="Bus 6/audio_out 2"/>
-          <Connection other="Bus 1/audio_out 2"/>
-          <Connection other="Bus 5/audio_out 2"/>
-          <Connection other="Bus 4/audio_out 2"/>
           <Connection other="Bus 3/audio_out 2"/>
         </Port>
       </IO>
@@ -7362,7 +7362,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="23543" flags="GainLike" value="1.357588304594"/>
+        <Controllable name="gaincontrol" id="23543" flags="GainLike" value="0.000000000000"/>
       </Processor>
       <Processor id="394" name="C* Plate2x2 - Versatile plate reverb, stereo inputs" active="yes" user-latency="0" type="ladspa" unique-id="1795" count="1">
         <Automation>
@@ -7451,7 +7451,7 @@
 </events>
           </AutomationList>
         </Automation>
-        <Controllable name="gaincontrol" id="23584" flags="GainLike" value="0.000000000000"/>
+        <Controllable name="gaincontrol" id="23584" flags="GainLike" value="0.064750196933"/>
       </Processor>
       <Processor id="7862" name="GLAME Butterworth Lowpass" active="yes" user-latency="0" type="ladspa" unique-id="1903" count="2">
         <Automation>
@@ -7463,10 +7463,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+2467.379883"/>
+          <Port number="0" value="+19845.000000"/>
           <Port number="1" value="+0.707731"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23593" flags="" value="2467.379882812500" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23593" flags="" value="19845.000000000000" parameter="0"/>
         <Controllable name="Resonance" id="23595" flags="" value="0.707731008530" parameter="1"/>
       </Processor>
       <Processor id="7872" name="GLAME Butterworth Highpass" active="yes" user-latency="0" type="ladspa" unique-id="1904" count="2">
@@ -7500,10 +7500,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+123.652100"/>
+          <Port number="0" value="+4.410000"/>
           <Port number="1" value="+0.755000"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23600" flags="" value="123.652099609375" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23600" flags="" value="4.409999847412" parameter="0"/>
         <Controllable name="Resonance" id="23602" flags="" value="0.754999995232" parameter="1"/>
       </Processor>
       <Processor id="23585" name="Meter" active="yes" user-latency="0" type="meter"/>
@@ -7617,8 +7617,8 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23743" flags="" value="0.401639342308"/>
-        <Controllable name="pan-width" id="23747" flags="" value="0.803278684616"/>
+        <Controllable name="pan-azimuth" id="23743" flags="" value="0.352459014439"/>
+        <Controllable name="pan-width" id="23747" flags="" value="0.704918028878"/>
         <Controllable name="pan-elevation" id="23745" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23749" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="23751" flags="" value="0.000000000000"/>
@@ -7665,8 +7665,8 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23780" flags="" value="0.565573751926"/>
-        <Controllable name="pan-width" id="23784" flags="" value="0.868852436543"/>
+        <Controllable name="pan-azimuth" id="23780" flags="" value="0.614754079795"/>
+        <Controllable name="pan-width" id="23784" flags="" value="0.770491780805"/>
         <Controllable name="pan-elevation" id="23782" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23786" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="23788" flags="" value="0.000000000000"/>
@@ -7840,7 +7840,7 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23687" flags="" value="0.500000000000"/>
+        <Controllable name="pan-azimuth" id="23687" flags="" value="0.662162162162"/>
         <Controllable name="pan-width" id="23691" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="23689" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23693" flags="" value="0.000000000000"/>
@@ -7902,10 +7902,10 @@
           </AutomationList>
         </Automation>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes">
-          <Port number="0" value="+4.410000"/>
+          <Port number="0" value="+36.119495"/>
           <Port number="1" value="+0.755000"/>
         </ladspa>
-        <Controllable name="Cutoff Frequency (Hz)" id="23707" flags="" value="4.409999847412" parameter="0"/>
+        <Controllable name="Cutoff Frequency (Hz)" id="23707" flags="" value="36.119495391846" parameter="0"/>
         <Controllable name="Resonance" id="23709" flags="" value="0.754999995232" parameter="1"/>
       </Processor>
       <Processor id="23701" name="Meter" active="yes" user-latency="0" type="meter"/>
@@ -7934,7 +7934,7 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23718" flags="" value="0.500000000000"/>
+        <Controllable name="pan-azimuth" id="23718" flags="" value="0.337837837838"/>
         <Controllable name="pan-width" id="23722" flags="" value="0.000000000000"/>
         <Controllable name="pan-elevation" id="23720" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23724" flags="" value="0.000000000000"/>
@@ -7970,8 +7970,8 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23817" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="23821" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="23817" flags="" value="0.352459016393"/>
+        <Controllable name="pan-width" id="23821" flags="" value="0.704918032787"/>
         <Controllable name="pan-elevation" id="23819" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23823" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="23825" flags="" value="0.000000000000"/>
@@ -8032,8 +8032,8 @@
       <MuteMaster mute-point="PreFader,PostFader,Listen,Main" muted="no"/>
       <RemoteControl id="0"/>
       <Pannable>
-        <Controllable name="pan-azimuth" id="23864" flags="" value="0.500000000000"/>
-        <Controllable name="pan-width" id="23868" flags="" value="1.000000000000"/>
+        <Controllable name="pan-azimuth" id="23864" flags="" value="0.647540983607"/>
+        <Controllable name="pan-width" id="23868" flags="" value="0.704918032787"/>
         <Controllable name="pan-elevation" id="23866" flags="" value="0.000000000000"/>
         <Controllable name="pan-frontback" id="23870" flags="" value="0.000000000000"/>
         <Controllable name="pan-lfe" id="23872" flags="" value="0.000000000000"/>
@@ -13709,9 +13709,9 @@
     <Meter start="1|1|0" note-type="4.000000" divisions-per-bar="4.000000" movable="no"/>
   </TempoMap>
   <ControlProtocols>
-    <Protocol name="Generic MIDI" active="no"/>
     <Protocol name="Open Sound Control (OSC)" active="no"/>
     <Protocol name="Mackie" active="no"/>
+    <Protocol name="Generic MIDI" active="no"/>
   </ControlProtocols>
   <Extra>
     <RulerVisibility timecode="no" bbt="no" samples="no" minsec="yes" tempo="yes" meter="yes" marker="yes" rangemarker="yes" transportmarker="yes" cdmarker="yes"/>
@@ -13785,7 +13785,7 @@
       <Window name="M-3262-23925" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-3262-23926" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24064" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="M-18215-18244" visible="yes" x-off="6" y-off="114" x-size="448" y-size="289"/>
+      <Window name="M-18215-18244" visible="yes" x-off="7" y-off="142" x-size="448" y-size="289"/>
       <Window name="M-18215-24067" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18215-24068" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="M-18224-24105" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>

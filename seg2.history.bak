@@ -792,7 +792,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258322" tv-usec="177372" name="move marker">
+  <UndoTransaction tv-sec="1359258322" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="111088448" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -814,7 +814,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258373" tv-usec="826360" name="move marker">
+  <UndoTransaction tv-sec="1359258373" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="110912305" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -836,7 +836,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258394" tv-usec="918695" name="move marker">
+  <UndoTransaction tv-sec="1359258394" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="110912305" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -858,7 +858,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258423" tv-usec="335201" name="move marker">
+  <UndoTransaction tv-sec="1359258423" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="110911700" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -880,7 +880,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258457" tv-usec="275399" name="move marker">
+  <UndoTransaction tv-sec="1359258457" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="110911509" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
@@ -902,7 +902,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359258464" tv-usec="105041" name="move marker">
+  <UndoTransaction tv-sec="1359258464" tv-usec="3909317424" name="move marker">
     <MementoCommand obj-id="17" type-name="ARDOUR::Locations">
       <Locations>
         <Location id="22543" name="session" start="0" end="110911491" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
