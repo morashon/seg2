@@ -12,8 +12,6 @@ _Thisone: That was creepy.  Morashon is some sort of scam.
 
 _Annai: (chuckles) I wish it were that simple.
 
-(pause)
-
 _Thisone: What was that song about?  What was he taking from you and the rest?
 
 {time=22}
@@ -38,7 +36,7 @@ _But it's all theoretical.  There's never been any evidence that it could really
 {nudge=1.5}
 _Annai: So you still think it's a bunch of Finnish jokers with some new body gear.
 
-_Thisone: As a rationalist, that's a much better hypothesis than buying this A I crap.
+_Thisone: As a rationalist, that's a much better hypothesis than buying this AI crap.
 
 _Annai: Have you ever known Finns to be that creepy, as you say?
 
@@ -101,7 +99,7 @@ _Thisone: Sure.  We should bike sometime.  I know a great trail; it's in Germond
 
 _Annai: Sure.  Some day.
 
-_Thisone: You don't sound sure.
+_Thisone: You don't sound so sure.
 
 _Annai: Sure of what?
 
@@ -158,7 +156,7 @@ _Annai: Hah.  You listen to the blogo-heads.  The establishment, the folks who r
 
 _Thisone: For you, this is life.  It's everything.
 
-_Annai: Precisely.  And for you, too.  You just can't admit it.
+_Annai: Precisely.  And for you, too.  You just can't admit it yet.
 
 _Thisone: (thinks for a moment) Maybe you're right.  Even as the interface gear gets better and better, I never feel like this is home.  I'm homesick, I guess.
 
@@ -244,8 +242,6 @@ _Thisone: You mean he's planning to go grid-wide?
 
 _Annai: Well it's all viral of course.  His stats are growing slowly but steadily.  He's not in a hurry.
 
-(pause)
-
 _Annai: He's running multiples, you know.  It's not just our little group.
 
 _Thisone: So when we hang out with him, each time it's a different team of Finnish mind-fuckers?
@@ -273,7 +269,7 @@ Annai logs out (disappears)
 _Annai: If it's old enough, it's cool.
 
 {nudge=-1}
-Scene: Morashon's salon.  Morashon is there with Annai.  She sits with her knees folded, almost in supplication.  
+Scene: Morashon's salon.  Morashon is there with Annai; no one else is present.  She sits with her knees folded, almost in supplication.  
 Morashon's skin is blue.
 
 {time=550}
@@ -299,7 +295,7 @@ _Thisone: Whatever, let's get on with it.
 _Morashon: We're just relaxing, talking.  There is no agenda.
 
 {time=586.5}
-_Thisone: So you're some sort of A I.  Code.
+_Thisone: So you're some sort of AI.  Code.
 
 {nudge=2}
 _Morashon: I exist here, in the Grid.  As do you, and Annai, and everyone and everything we interact with here.
@@ -410,12 +406,10 @@ _Thisone: I don't get it.  Hamlet doesn't exist.  He was a figment of Shakespear
 
 _Morashon: Which was?
 
-(pause)
-
-{nudge=1}
+{nudge=.4}
 _Annai: Some brain cells.
 
-{nudge=1}
+{nudge=1.2}
 _Morashon: Excellent!  Insightful as ever, beautiful Annai.  Hamlet existed, to the degree he existed at all, as a pattern of neural firing in the brain of one we call William Shakespeare, of Stratford on Avon.  But -- and this is exquisitely important -- if, perchance, we discover historical proof that the writer of Hamlet, in reality, was none other than Sir Francis Bacon, what does that say of poor Hamlet, dependent as he was on the brain cells of the Bard of Stratford for his very existence?
 
 _Thisone: Well, obviously, it just means that Bacon's brain cells were Hamlet, not Shakespeare's.
@@ -428,6 +422,7 @@ _Thisone: No, I suppose not.
 {nudge=1}
 _Morashon: So in principle, it matters not whether Hamlet existed in the imagination of one person or another.  What matters is that he existed at all. The brain cells fired; the internal representation that was Hamlet thought Hamlet thoughts, made Hamlet speeches, and tried -- or failed, as it happened -- to make important Hamlet decisions.
 
+{nudge=1}
 _Thisone: I think I see where you're going with this.
 
 _Morashon: Indeed, we've come so far already -- there is not much further to go.  The destination should be obvious, to one as gifted as you.
@@ -449,6 +444,7 @@ Data, flowing through logic.  Whether through the wet chemistry of one's evolved
 {time=1082}
 _Thisone: Huh. That's a lot to think about.  How did we get off on this tangent?  We were talking about trust.
 
+{nudge=-1}
 _Morashon: Trust, indeed.  Indeed we were.  Trust is really just another aspect of truth.
 
 _Thisone: How so?
@@ -488,7 +484,7 @@ _Morashon: You will.
 
 {nudge=-11}
 {hold=15}
-Annai sings "Mouth Of Truth" to Morashon's accompaniment. Thisone adds harmony later in the song.
+Annai sings "Mouth Of Truth" to Morashon's accompaniment.
 
 {time=1160}
 _Annai:
@@ -542,6 +538,11 @@ Yes you hate it
 {nudge=-2}
 _Put your hand in the mouth of truth
 Tell yourself it's not true
+
+{nudge=5}
+Thisone joins in harmony
+
+_Annai (with Thisone):
 Put your hand in the mouth of truth
 Until you do it won't come true
 
