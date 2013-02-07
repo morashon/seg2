@@ -553,6 +553,7 @@ Put your hand
 Put your hand
 
 {time=1327}
+{hold=14}
 _Put your hand in the mouth of truth
 
 {nudge=-3}
@@ -634,12 +635,14 @@ _Thisone: You're quite the hacker, for a --
 {time=1470}
 _Annai: A girl?
 
+{nudge=.6}
 _Thisone: I was going to say, for someone so young.  I associate youth with talent, energy, and inexperience.
 
 _Annai: I've been coding since before I could talk.
 
 _Thisone: Typical.  Still.
 
+{nudge=.8}
 _Annai: Anyway, check this out:  I diffed it against the original.
 
 _Thisone: Why would he start with some old cruft like this?  It's completely obsolete.
@@ -714,7 +717,7 @@ _Thisone: I don't know.  I guess, if it means something to you, it means somethi
 {time=1666}
 _Annai: "...I contradict myself.  I am large; I contain multitudes."
 
-_Thisone: (pause as he looks it up) Walt Whitman?
+_Thisone: Walt Whitman?
 
 _Annai: 20th century poet.
 
@@ -1111,7 +1114,7 @@ _Love
 
 {nudge=15}
 {hold=20}
-Instrumental interlude. Thisone imagines the Ogre and other strange characters, playing pan flute and recorder, prancing in a field of flowers.
+Instrumental interlude. Thisone imagines the Ogre and other strange characters, playing pan flute and recorder, prancing in a postcard garden; Annai picking flowers in the distance.
 
 {time=2337.5}
 {hold=15}
