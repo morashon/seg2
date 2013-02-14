@@ -69,7 +69,7 @@
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="yes" show-all="no" show-automatic-regions="yes"/>
   </Editor>
-  <Mixer narrow-strips="no" show-mixer="yes">
+  <Mixer narrow-strips="no" show-mixer="no">
     <geometry x-size="1884" y-size="1048" x-pos="0" y-pos="0" x-off="0" y-off="0" mixer-rhs-pane1-pos="295" mixer-list-hpane-pos="300"/>
   </Mixer>
 </instant>

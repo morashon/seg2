@@ -595,7 +595,7 @@
       </Locations>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359525567" tv-usec="26418" name="split">
+  <UndoTransaction tv-sec="1359525567" tv-usec="3909317424" name="split">
     <StatefulDiffCommand obj-id="23023" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
@@ -606,14 +606,14 @@
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359525570" tv-usec="40817" name="region drag">
+  <UndoTransaction tv-sec="1359525570" tv-usec="3909317424" name="region drag">
     <StatefulDiffCommand obj-id="50553" type-name="ARDOUR::AudioRegion">
       <Changes>
         <position from="73678086" to="73703455"/>
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359525583" tv-usec="368474" name="split">
+  <UndoTransaction tv-sec="1359525583" tv-usec="3909317424" name="split">
     <StatefulDiffCommand obj-id="23023" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
@@ -624,14 +624,14 @@
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359525585" tv-usec="855822" name="region drag">
+  <UndoTransaction tv-sec="1359525585" tv-usec="3909317424" name="region drag">
     <StatefulDiffCommand obj-id="50582" type-name="ARDOUR::AudioRegion">
       <Changes>
         <position from="73772316" to="73779565"/>
       </Changes>
     </StatefulDiffCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1359525588" tv-usec="686913" name="region drag">
+  <UndoTransaction tv-sec="1359525588" tv-usec="3909317424" name="region drag">
     <StatefulDiffCommand obj-id="50574" type-name="ARDOUR::AudioRegion">
       <Changes>
         <position from="73703455" to="73717952"/>
