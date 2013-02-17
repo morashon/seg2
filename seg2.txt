@@ -137,8 +137,10 @@ _Annai: Exactly.
 {nudge=2}
 _Thisone: Oh, I get it.  Since we fucked up topside, and real life is just our little cubbies, and only the mega-rich can go anywhere for real...
 
+{nudge=-.4}
 _Annai: Exactly..
 
+{nudge=.4}
 _Thisone: For your generation, real life, topside, anything but the Grid is just -- irrelevant.
 
 _Annai: Ok.  Sort of.  Not totally irrelevant.   Just -- obsolete.  Offline.
@@ -158,7 +160,7 @@ _Thisone: For you, this is life.  It's everything.
 
 _Annai: Precisely.  And for you, too.  You just can't admit it yet.
 
-_Thisone: (thinks for a moment) Maybe you're right.  Even as the interface gear gets better and better, I never feel like this is home.  I'm homesick, I guess.
+_Thisone: Maybe you're right.  Even as the interface gear gets better and better, I never feel like this is home.  I'm homesick, I guess.
 
 _Annai: But this is my home.  I never had anything else.
 
@@ -231,6 +233,7 @@ _Annai: (almost singing) All will be revealed...
 
 _Thisone: Oh.  Him again.
 
+{nudge=1.1}
 _Annai: You should talk to him someday.  He's brilliant.  It's not just the music.  He has ideas that could change the world.
 
 _Thisone: You mean change the Grid?
@@ -447,6 +450,7 @@ _Thisone: Huh. That's a lot to think about.  How did we get off on this tangent?
 {nudge=-1}
 _Morashon: Trust, indeed.  Indeed we were.  Trust is really just another aspect of truth.
 
+{nudge=-1}
 _Thisone: How so?
 
 _Morashon: To each of us, truth is simply what we believe.
@@ -539,22 +543,25 @@ Yes you hate it
 _Put your hand in the mouth of truth
 Tell yourself it's not true
 
-{nudge=5}
+{nudge=-5}
 Thisone joins in harmony
 
+{nudge=-5.5}
 _Annai (with Thisone):
 Put your hand in the mouth of truth
 Until you do it won't come true
 
 {nudge=-10}
-_Put your hand
+_NOACTOR:
+Put your hand
 Put your hand
 Put your hand
 Put your hand
 
 {time=1327}
 {hold=14}
-_Put your hand in the mouth of truth
+_Annai:
+Put your hand in the mouth of truth
 
 {nudge=-3}
 Scene: Thisone's private sim
@@ -841,7 +848,7 @@ _Thisone: How can you be so sure?
 {nudge=-1}
 _Annai: (laughing) You're a mega-dude.  Mega-nerdy dude.
 
-_Thisone: (avatar blushes) Thanks for the compliment?
+_Thisone: (blushes) Thanks for the compliment?
 
 {nudge=-1}
 _Annai: No, it's ok.  I like it.
@@ -904,7 +911,7 @@ _Thisone: Oh... I think I'm beginning to feel old.
 {nudge=1}
 _Annai: It's just sex.  And technologly.  Gridsex, you know.  It's a release. Why be embarrassed?  It's no big deal.
 
-_Thisone: It just never felt real to me.  I tried a couple times.  It was so, awkward.
+_Thisone: It just never felt real to me.  I tried a couple times.  It was so... awkward.
 
 {nudge=-2}
 Annai teleports in to the sim
@@ -912,6 +919,7 @@ Annai teleports in to the sim
 {time=1949}
 _Thisone: Oh.  Hi there.
 
+{nudge=.33}
 _Annai: Do you have all the gear?
 
 _Thisone: You mean, uh, you know -- for sex?
@@ -922,10 +930,13 @@ _Thisone: Yes, I have the gear.
 
 _Annai: We can be anyone we want.
 
+{nudge=.7}
 _Thisone: That's what makes it hard for me.  I think, if you had experienced...
 
+{nudge=-.3}
 _Annai: Real sex?
 
+{nudge=.67}
 _Thisone: Ack, you're so -- um, it's so easy for you to talk about this stuff..
 
 _Annai: It's just something we can do, you know.  Like music, or hacking.  It's just another part of life.
@@ -1114,7 +1125,9 @@ _Love
 
 {nudge=15}
 {hold=20}
-Instrumental interlude. Thisone imagines the Ogre and other strange characters, playing pan flute and recorder, prancing in a postcard garden; Annai picking flowers in the distance.
+Instrumental interlude. Thisone imagines the Ogre and other strange characters, playing pan flute and recorder, prancing in a postcard garden. 
+~
+Annai is picking flowers in the distance.
 
 {time=2337.5}
 {hold=15}
